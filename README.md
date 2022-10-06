@@ -1,15 +1,10 @@
  <h1 align="center">✨ AellyXD ✨</h1>
 
-<a href="https://github.com/AellyOfficial/AellyXD/commits"> <img src="https://img.shields.io/github/last-commit/AellyXD/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AellyXD/Ayiin-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/AellyXD/Ayiin-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/AellyXD/Ayiin-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/AellyXD/Ayiin-Userbot?&logo=github)](https://github.com/AellyXD/Ayiin-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/AellyXD/Ayiin-Userbot?&logo=github)](https://github.com/AellyXD/Ayiin-Userbot/stargazers)
+
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/940f21be8d8863b6c70ae.jpg">
+  <img src="https://telegra.ph/file/93a0567ef9d7d2a9ced42.png">
 </p>
 
 
