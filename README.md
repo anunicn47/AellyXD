@@ -56,7 +56,7 @@ Use this bot at your own risk, and use this userbot wisely.
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Ayiin-Userbot`
+ • `screen -S AellyXD`
 
  • `bash start`
 
@@ -66,7 +66,7 @@ Use this bot at your own risk, and use this userbot wisely.
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/AellyXD/DeployAyiin"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/AellyOfficial/AellyXD"><img src="https://img.shields.io/badge/Deploy with-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
@@ -78,29 +78,14 @@ Use this bot at your own risk, and use this userbot wisely.
 
 </details>
 
-## Updates & Support
+## Owner Support [Ananya](https://t.me/an_unic_or_n47) or [Karan](https://t.me/kkara9009)
 
-Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot dan Gabung Group [@AellyXDSupport](https://t.me/AellyXDSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Ayiin-Userbot.
-
+You can contact for any help with Owners...
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
--  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
--  [RaphielGang](https://github.com/RaphielGang) : Paperplane
--  [TeamUltroid](https://github.com/TeamUltroid/Ultroid) :  UltroidUserbot
--  [BianSepang](https://github.com/BianSepang/WeebProject) : WeebProject
--  [Sandy1709](https://github.com/sandy1709/catuserbot) : CatUserbot
--  [X_ImFine](https://github.com/ximfine) :  XBot-REMIX
--  [Risman](https://github.com/mrismanaziz/Man-Userbot) :  Man-Userbot
--  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
--  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
--  [AellyXD](https://github.com/AellyXD/Ayiin-Userbot) : Ayiin-Userbot
-
-## © Credits
--  [MarshalX](https://github.com/MarshalX) for [PyTgcalls](https://github.com/MarshalX/tgcalls)
--  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
--  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
--  [AellyXD](https://github.com/AellyXD) for [Ayiin-Userbot](https://github.com/AellyXD/Ayiin-Userbot)
+-  [Karan](https://github.com/kkara9009) : ProjectBish
+-  [Ananya](https://github.com/anunicn47) : Paperplane
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/AellyXD/Ayiin-Userbot/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/AellyOfficial/AellyXD/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
 
 
