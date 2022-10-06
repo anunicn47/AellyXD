@@ -1,4 +1,4 @@
- <h1 align="center">✨ 𝘼𝙚lly 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
+ <h1 align="center">✨ AellyXD ✨</h1>
 
 <a href="https://github.com/AellyOfficial/AellyXD/commits"> <img src="https://img.shields.io/github/last-commit/AellyXD/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AellyXD/Ayiin-Userbot)
