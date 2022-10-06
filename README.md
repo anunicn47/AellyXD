@@ -9,16 +9,16 @@
 
 
 
-Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
-Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
 
 ## Disclaimer
 
 ```
-Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
-Bot ini dimaksudkan untuk bersenang-senang sekaligus membantu anda
-mengelola grup secara efisien dan mengotomatiskan beberapa hal yang membosankan.
-Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak.
+I am not responsible for the abuse of this bot.
+This bot is meant to have fun while helping you
+manage groups efficiently and automate some of the tedious things.
+Use this bot at your own risk, and use this userbot wisely.
+
+
 ```
 
 ## ========×========
