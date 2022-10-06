@@ -1,12 +1,12 @@
-# Ayiin - Userbot
-# Copyright (C) 2022-2023 @AyiinXd
+# AellyXD
+# Copyright (C) 2022-2023 @kkara9009
 #
-# This file is a part of < https://github.com/AyiinXd/Ayiin-Userbot >
+# This file is a part of < https://github.com/AellyOffical/AellyXD >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/AyiinXd/Ayiin-Userbot/blob/main/LICENSE/>.
+# <https://www.github.com/AellyOffical/AellyXD/blob/main/LICENSE/>.
 #
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# FROM Ayiin-Userbot <https://github.com/AellyOffical/AellyXD>
+# t.me/an_unic_or_n47 & t.me/kkara9009
 
 
 from time import sleep
