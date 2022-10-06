@@ -1,6 +1,6 @@
 # 🍀 © @tofik_dn
 # ⚠️ Do not remove credits
-# Recode by : @AyiinXd
+# Recode by : @AellyXD
 
 
 # ========================×========================
@@ -11,9 +11,9 @@ from secrets import choice
 
 from telethon.tl.types import InputMessagesFilterVideo
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, BLACKLIST_CHAT
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, BLACKLIST_CHAT
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 

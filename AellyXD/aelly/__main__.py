@@ -19,17 +19,17 @@ from pytgcalls import __version__ as pytgcalls
 from telethon import version
 from telethon.tl.alltlobjects import LAYER
 
-from AyiinXd import BOT_TOKEN
-from AyiinXd import BOT_VER as ubotversion
-from AyiinXd import BOTLOG_CHATID, LOGS, LOOP, bot
-from AyiinXd.clients import ayiin_userbot_on, multiayiin
-from AyiinXd.core.git import git
-from AyiinXd.modules import ALL_MODULES
-from AyiinXd.ayiin import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
+from AellyXD import BOT_TOKEN
+from AellyXD import BOT_VER as ubotversion
+from AellyXD import BOTLOG_CHATID, LOGS, LOOP, bot
+from AellyXD.clients import ayiin_userbot_on, multiayiin
+from AellyXD.core.git import git
+from AellyXD.modules import ALL_MODULES
+from AellyXD.ayiin import AyiinDB, HOSTED_ON, autobot, autopilot, ayiin_version
 
 try:
     for module_name in ALL_MODULES:
-        imported_module = import_module(f"AyiinXd.modules.{module_name}")
+        imported_module = import_module(f"AellyXD.modules.{module_name}")
     adB = AyiinDB()
     client = multiayiin()
     total = 10 - client

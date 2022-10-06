@@ -12,12 +12,12 @@ from github import Github
 
 # from sample_config import Config
 # from uniborg.util import admin_cmd, humanbytes, progress, time_formatter
-# from AyiinXd.events import humanbytes, progress, time_formatter
-from AyiinXd import CMD_HELP, GIT_REPO_NAME, GITHUB_ACCESS_TOKEN, bot
-from AyiinXd.ayiin import ayiin_cmd
+# from AellyXD.events import humanbytes, progress, time_formatter
+from AellyXD import CMD_HELP, GIT_REPO_NAME, GITHUB_ACCESS_TOKEN, bot
+from AellyXD.ayiin import ayiin_cmd
 from Stringyins import get_string
 
-GIT_TEMP_DIR = "./AyiinXd/temp/"
+GIT_TEMP_DIR = "./AellyXD/temp/"
 
 
 @ayiin_cmd(pattern="gcommit(?: |$)(.*)")
@@ -71,9 +71,9 @@ async def git_commit(file_name, mone):
         create_file = True
         if i == 'ContentFile(path="' + file_name + '")':
             return await mone.edit(get_string("comt_9"))
-    file_name = "AyiinXd/modules/" + file_name
+    file_name = "AellyXD/modules/" + file_name
     if create_file:
-        file_name = file_name.replace("./AyiinXd/temp/", "")
+        file_name = file_name.replace("./AellyXD/temp/", "")
         print(file_name)
         try:
             repo.create_file(

@@ -14,10 +14,10 @@ import os
 
 from PIL import Image
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import eod, eor
-from AyiinXd.ayiin import ayiin_cmd, runcmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import eod, eor
+from AellyXD.ayiin import ayiin_cmd, runcmd
 from Stringyins import get_string
 
 
@@ -80,7 +80,7 @@ async def cevir(event):
             await event.client.send_file(
                 event.chat_id,
                 "output.mp3",
-                thumb="AyiinXd/resources/logo.jpg",
+                thumb="AellyXD/resources/logo.jpg",
                 reply_to=rep_msg,
             )
             await xxx.delete()
@@ -105,7 +105,7 @@ async def cevir(event):
             await event.client.send_file(
                 event.chat_id,
                 "out.mp3",
-                thumb="AyiinXd/resources/logo.jpg",
+                thumb="AellyXD/resources/logo.jpg",
                 reply_to=rep_msg,
             )
         except BaseException:

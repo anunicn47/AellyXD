@@ -2,9 +2,9 @@
 
 from sqlalchemy.exc import IntegrityError
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd
 from Stringyins import get_string
 
 fban_replies = [
@@ -23,7 +23,7 @@ unfban_replies = ["New un-FedBan", "I'll give", "Un-FedBan"]
 async def fban(event):
     """Bans a user from connected federations."""
     try:
-        from AyiinXd.modules.sql_helper.fban_sql import get_flist
+        from AellyXD.modules.sql_helper.fban_sql import get_flist
     except IntegrityError:
         return await event.edit(get_string("not_sql"))
 
@@ -94,7 +94,7 @@ async def fban(event):
 async def unfban(event):
     """Unbans a user from connected federations."""
     try:
-        from AyiinXd.modules.sql_helper.fban_sql import get_flist
+        from AellyXD.modules.sql_helper.fban_sql import get_flist
     except IntegrityError:
         return await event.edit(get_string("not_sql"))
 
@@ -159,7 +159,7 @@ async def unfban(event):
 async def addf(event):
     """Adds current chat to connected federations."""
     try:
-        from AyiinXd.modules.sql_helper.fban_sql import add_flist
+        from AellyXD.modules.sql_helper.fban_sql import add_flist
     except IntegrityError:
         return await event.edit(get_string("not_sql"))
 
@@ -179,7 +179,7 @@ async def addf(event):
 async def delf(event):
     """Removes current chat from connected federations."""
     try:
-        from AyiinXd.modules.sql_helper.fban_sql import del_flist
+        from AellyXD.modules.sql_helper.fban_sql import del_flist
     except IntegrityError:
         return await event.edit(get_string("not_sql"))
 
@@ -191,7 +191,7 @@ async def delf(event):
 async def listf(event):
     """List all connected federations."""
     try:
-        from AyiinXd.modules.sql_helper.fban_sql import get_flist
+        from AellyXD.modules.sql_helper.fban_sql import get_flist
     except IntegrityError:
         return await event.edit(get_string("not_sql"))
 
@@ -211,7 +211,7 @@ async def listf(event):
 async def clearf(event):
     """Removes all chats from connected federations."""
     try:
-        from AyiinXd.modules.sql_helper.fban_sql import del_flist_all
+        from AellyXD.modules.sql_helper.fban_sql import del_flist_all
     except IntegrityError:
         return await event.edit(get_string("not_sql"))
 

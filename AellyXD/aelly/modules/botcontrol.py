@@ -17,7 +17,7 @@ from telethon.tl import types
 from telethon.tl.types import MessageMediaWebPage
 from telethon.utils import get_display_name, pack_bot_file_id
 
-from AyiinXd import (
+from AellyXD import (
     BOTLOG_CHATID,
     CHANNEL,
     CMD_HANDLER,
@@ -29,14 +29,14 @@ from AyiinXd import (
     tgbot,
     user,
 )
-from AyiinXd.modules.sql_helper.bot_blacklists import check_is_black_list
-from AyiinXd.modules.sql_helper.bot_starters import (
+from AellyXD.modules.sql_helper.bot_blacklists import check_is_black_list
+from AellyXD.modules.sql_helper.bot_starters import (
     add_starter_to_db,
     get_all_starters,
     get_starter_details,
 )
-from AyiinXd.modules.sql_helper.globals import gvarstatus
-from AyiinXd.ayiin import _format, asst_cmd, callback, reply_id
+from AellyXD.modules.sql_helper.globals import gvarstatus
+from AellyXD.ayiin import _format, asst_cmd, callback, reply_id
 
 from .ping import get_readable_time
 
@@ -155,7 +155,7 @@ async def users(event):
                 event.chat_id,
                 fileuser,
                 force_document=True,
-                thumb="AyiinXd/resources/logo.jpg",
+                thumb="AellyXD/resources/logo.jpg",
                 caption="**Total Pengguna Di Bot anda.**",
                 allow_cache=False,
                 buttons=[
@@ -1042,7 +1042,7 @@ async def bot_start(event):
                         \n\n**Saya adalah {my_first}** \
                         \n**Anda dapat menghubungi [{OWNER}](tg://user?id={OWNER_ID}) dari sini.**\
                         \n**Jangan melakukan spam atau anda akan di Banned**\
-                        \n\n**Powered by** [UserBot](https://github.com/AyiinXd/Ayiin-Userbot)"
+                        \n\n**Powered by** [UserBot](https://github.com/AellyXD/Ayiin-Userbot)"
         buttons = [
             (
                 Button.url("ɢʀᴏᴜᴘ", f"https://t.me/{GROUP}"),

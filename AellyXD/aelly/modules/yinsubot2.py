@@ -1,13 +1,13 @@
 # Copyright (C) 2021 Kyy - Userbot
 # Credit by kyy
-# Recode by @AyiinXd
+# Recode by @AellyXD
 
 
 from time import sleep
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 

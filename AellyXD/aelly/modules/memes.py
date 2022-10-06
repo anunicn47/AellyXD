@@ -15,10 +15,10 @@ from secrets import choice
 import requests
 from cowpy import cow
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.events import ayiin_cmd
-from AyiinXd.ayiin import edit_delete, get_user_from_event
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.events import ayiin_cmd
+from AellyXD.ayiin import edit_delete, get_user_from_event
 
 # ================= CONSTANT =================
 METOOSTR = [

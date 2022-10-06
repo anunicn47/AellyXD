@@ -15,9 +15,9 @@ from aiohttp import ClientSession
 from bs4 import BeautifulSoup
 from requests import get
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from AyiinXd.ayiin import (
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from AellyXD.ayiin import (
     chrome,
     human_to_bytes,
     humanbytes,

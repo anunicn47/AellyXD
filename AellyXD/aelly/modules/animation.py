@@ -2,11 +2,11 @@ import asyncio
 from secrets import choice
 from time import sleep
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.events import register as own_cmd
-from AyiinXd.modules.yinsping import absen
-from AyiinXd.ayiin import edit_or_reply, ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.events import register as own_cmd
+from AellyXD.modules.yinsping import absen
+from AellyXD.ayiin import edit_or_reply, ayiin_cmd
 
 
 @ayiin_cmd(pattern="bulan$")

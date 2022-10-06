@@ -4,12 +4,12 @@ from telethon import events
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
-import AyiinXd.modules.sql_helper.antiflood_sql as sql
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.ayiin import eod, eor
-from AyiinXd.events import ayiin_cmd
-from AyiinXd.ayiin.tools import is_admin
+import AellyXD.modules.sql_helper.antiflood_sql as sql
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.ayiin import eod, eor
+from AellyXD.events import ayiin_cmd
+from AellyXD.ayiin.tools import is_admin
 from Stringyins import get_string
 
 CHAT_FLOOD = sql.__load_flood_settings()

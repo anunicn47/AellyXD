@@ -46,8 +46,8 @@ from telethon.tl.types import (
 )
 from yt_dlp import YoutubeDL
 
-from AyiinXd import LOGS, SUDO_USERS, bot
-from AyiinXd.ayiin.format import md_to_text, paste_message
+from AellyXD import LOGS, SUDO_USERS, bot
+from AellyXD.ayiin.format import md_to_text, paste_message
 
 from .FastTelethon import download_file as downloadable
 
@@ -342,7 +342,7 @@ async def bash(cmd):
 def post_to_telegraph(title, html_format_content):
     post_client = TelegraphPoster(use_api=True)
     auth_name = "Ayiin-Userbot"
-    auth_url = "https://github.com/AyiinXd/Ayiin-Userbot"
+    auth_url = "https://github.com/AellyXD/Ayiin-Userbot"
     post_client.create_api_token(auth_name)
     post_page = post_client.post(
         title=title,

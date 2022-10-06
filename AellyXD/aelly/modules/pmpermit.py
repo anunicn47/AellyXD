@@ -13,11 +13,11 @@ from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from telethon.tl.functions.messages import ReportSpamRequest
 from telethon.tl.types import User
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, COUNT_PM, DEVS, LASTMSG, LOGS, PM_AUTO_BAN, PM_LIMIT, bot
-from AyiinXd.events import ayiin_cmd
-from AyiinXd.ayiin import eod, eor
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, COUNT_PM, DEVS, LASTMSG, LOGS, PM_AUTO_BAN, PM_LIMIT, bot
+from AellyXD.events import ayiin_cmd
+from AellyXD.ayiin import eod, eor
 from Stringyins import get_string
 
 DEF_UNAPPROVED_MSG = (get_string("prmt_1"))
@@ -39,8 +39,8 @@ async def permitpm(event):
         and not sender.contact
     ):
         try:
-            from AyiinXd.modules.sql_helper.globals import gvarstatus
-            from AyiinXd.modules.sql_helper.pm_permit_sql import is_approved
+            from AellyXD.modules.sql_helper.globals import gvarstatus
+            from AellyXD.modules.sql_helper.pm_permit_sql import is_approved
         except AttributeError:
             return
         apprv = is_approved(event.chat_id)
@@ -113,8 +113,8 @@ async def auto_accept(event):
         and not sender.contact
     ):
         try:
-            from AyiinXd.modules.sql_helper.globals import gvarstatus
-            from AyiinXd.modules.sql_helper.pm_permit_sql import approve, is_approved
+            from AellyXD.modules.sql_helper.globals import gvarstatus
+            from AellyXD.modules.sql_helper.pm_permit_sql import approve, is_approved
         except AttributeError:
             return
 
@@ -150,7 +150,7 @@ async def auto_accept(event):
 async def notifoff(noff_event):
     """For .notifoff command, stop getting notifications from unapproved PMs."""
     try:
-        from AyiinXd.modules.sql_helper.globals import addgvar
+        from AellyXD.modules.sql_helper.globals import addgvar
     except AttributeError:
         return await noff_event.edit(get_string("not_sql"))
     addgvar("NOTIF_OFF", True)
@@ -162,7 +162,7 @@ async def notifoff(noff_event):
 async def notifon(non_event):
     """For .notifoff command, get notifications from unapproved PMs."""
     try:
-        from AyiinXd.modules.sql_helper.globals import delgvar
+        from AellyXD.modules.sql_helper.globals import delgvar
     except AttributeError:
         return await non_event.edit(get_string("not_sql"))
     delgvar("NOTIF_OFF")
@@ -174,8 +174,8 @@ async def notifon(non_event):
 async def approvepm(apprvpm):
     """For .ok command, give someone the permissions to PM you."""
     try:
-        from AyiinXd.modules.sql_helper.globals import gvarstatus
-        from AyiinXd.modules.sql_helper.pm_permit_sql import approve
+        from AellyXD.modules.sql_helper.globals import gvarstatus
+        from AellyXD.modules.sql_helper.pm_permit_sql import approve
     except AttributeError:
         return await eod(apprvpm, get_string("not_sql"))
 
@@ -234,7 +234,7 @@ async def approvepm(apprvpm):
 @bot.on(ayiin_cmd(outgoing=True, pattern=r"(?:tolak|nopm)\s?(.)?"))
 async def disapprovepm(disapprvpm):
     try:
-        from AyiinXd.modules.sql_helper.pm_permit_sql import dissprove
+        from AellyXD.modules.sql_helper.pm_permit_sql import dissprove
     except BaseException:
         return await eod(disapprvpm, get_string("not_sql"))
 
@@ -303,7 +303,7 @@ async def blockpm(block):
         uid = block.chat_id
 
     try:
-        from AyiinXd.modules.sql_helper.pm_permit_sql import dissprove
+        from AellyXD.modules.sql_helper.pm_permit_sql import dissprove
 
         dissprove(uid)
     except AttributeError:
@@ -327,7 +327,7 @@ async def add_pmsg(cust_msg):
         return await cust_msg.edit(get_string("prmt_16").format(cmd)
         )
     try:
-        import AyiinXd.modules.sql_helper.globals as sql
+        import AellyXD.modules.sql_helper.globals as sql
     except AttributeError:
         await cust_msg.edit(get_string("not_sql"))
         return
@@ -383,8 +383,8 @@ async def pmdevs(event):
     if event.fwd_from:
         return
     try:
-        from AyiinXd.modules.sql_helper.globals import gvarstatus
-        from AyiinXd.modules.sql_helper import pm_permit_sql as yins_sql
+        from AellyXD.modules.sql_helper.globals import gvarstatus
+        from AellyXD.modules.sql_helper import pm_permit_sql as yins_sql
     except AttributeError:
         return await eod(event, get_string("not_sql"))
     devs = await event.get_chat()

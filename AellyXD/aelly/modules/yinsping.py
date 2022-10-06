@@ -1,12 +1,12 @@
 # Ayiin - Userbot
-# Copyright (C) 2022-2023 @AyiinXd
+# Copyright (C) 2022-2023 @AellyXD
 #
-# This file is a part of < https://github.com/AyiinXd/Ayiin-Userbot >
+# This file is a part of < https://github.com/AellyXD/Ayiin-Userbot >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/AyiinXd/Ayiin-Userbot/blob/main/LICENSE/>.
+# <https://www.github.com/AellyXD/Ayiin-Userbot/blob/main/LICENSE/>.
 #
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 # ========================×========================
 #            Jangan Hapus Credit Ngentod
@@ -17,10 +17,10 @@ from datetime import datetime
 from secrets import choice
 
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, StartTime
-from AyiinXd import DEVS
-from AyiinXd.events import register
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, StartTime
+from AellyXD import DEVS
+from AellyXD.events import register
 from .ping import get_readable_time
 
 

@@ -1,18 +1,18 @@
 # Ayiin - Userbot
-# Copyright (C) 2022-2023 @AyiinXd
+# Copyright (C) 2022-2023 @AellyXD
 #
-# This file is a part of < https://github.com/AyiinXd/Ayiin-Userbot >
+# This file is a part of < https://github.com/AellyXD/Ayiin-Userbot >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/AyiinXd/Ayiin-Userbot/blob/main/LICENSE/>.
+# <https://www.github.com/AellyXD/Ayiin-Userbot/blob/main/LICENSE/>.
 #
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 from time import sleep
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 
@@ -30,7 +30,7 @@ async def _(y):
     await ayiin.edit(get_string("yibot_79"))
     sleep(3)
     await ayiin.edit(get_string("yibot_80"))
-# Create by myself @AyiinXd
+# Create by myself @AellyXD
 
 
 @ayiin_cmd(pattern=r"sayang(?: |$)(.*)")
@@ -38,7 +38,7 @@ async def _(i):
     xx = await eor(i, get_string("yibot_81"))
     sleep(3)
     await xx.edit(get_string("yibot_82"))
-# Create by myself @AyiinXd
+# Create by myself @AellyXD
 
 
 @ayiin_cmd(pattern=r"semangat(?: |$)(.*)")
@@ -48,7 +48,7 @@ async def _(n):
     await ayiin.edit(get_string("yibot_84"))
     sleep(1)
     await ayiin.edit(get_string("yibot_85"))
-# Create by myself @AyiinXd
+# Create by myself @AellyXD
 
 
 @ayiin_cmd(pattern=r"mengeluh(?: |$)(.*)")
@@ -58,7 +58,7 @@ async def _(s):
     await ayiin.edit(get_string("yibot_86"))
     sleep(1)
     await ayiin.edit(get_string("yibot_87"))
-# Create by myself @AyiinXd
+# Create by myself @AellyXD
 
 
 CMD_HELP.update(

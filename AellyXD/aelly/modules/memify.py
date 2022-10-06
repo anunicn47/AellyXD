@@ -9,9 +9,9 @@ import textwrap
 
 from PIL import Image, ImageDraw, ImageFont
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from AyiinXd.ayiin import edit_delete, edit_or_reply, ayiin_cmd, runcmd, take_screen_shot
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from AellyXD.ayiin import edit_delete, edit_or_reply, ayiin_cmd, runcmd, take_screen_shot
 
 
 @ayiin_cmd(pattern="mmf (.*)")
@@ -74,7 +74,7 @@ async def add_text_img(image_path, text):
     img_info = img.info
     image_width, image_height = img.size
     font = ImageFont.truetype(
-        font="AyiinXd/ayiin/styles/FontLord.ttf",
+        font="AellyXD/ayiin/styles/FontLord.ttf",
         size=int(image_height * font_size) // 100,
     )
     draw = ImageDraw.Draw(img)

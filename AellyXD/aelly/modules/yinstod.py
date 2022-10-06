@@ -1,12 +1,12 @@
 # Ayiin - Userbot
-# Copyright (C) 2022-2023 @AyiinXd
+# Copyright (C) 2022-2023 @AellyXD
 #
-# This file is a part of < https://github.com/AyiinXd/Ayiin-Userbot >
+# This file is a part of < https://github.com/AellyXD/Ayiin-Userbot >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/AyiinXd/Ayiin-Userbot/blob/main/LICENSE/>.
+# <https://www.github.com/AellyXD/Ayiin-Userbot/blob/main/LICENSE/>.
 #
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 
 # ========================×========================
@@ -16,11 +16,11 @@
 from time import sleep
 from secrets import choice
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin.truthdare import Dare as d
-from AyiinXd.ayiin.truthdare import Truth as t
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin.truthdare import Dare as d
+from AellyXD.ayiin.truthdare import Truth as t
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 

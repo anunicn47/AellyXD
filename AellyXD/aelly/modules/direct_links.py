@@ -14,9 +14,9 @@ import requests
 from bs4 import BeautifulSoup
 from humanize import naturalsize
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LOGS
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LOGS
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 

@@ -32,13 +32,13 @@ from telethon.tl.types import (
 )
 from telethon.utils import get_input_document
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd import S_PACK_NAME as custompack
-from AyiinXd import tgbot
-from AyiinXd.modules.sql_helper.globals import addgvar, gvarstatus
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
-from AyiinXd.ayiin.misc import animator, create_quotly
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD import S_PACK_NAME as custompack
+from AellyXD import tgbot
+from AellyXD.modules.sql_helper.globals import addgvar, gvarstatus
+from AellyXD.ayiin import ayiin_cmd, eod, eor
+from AellyXD.ayiin.misc import animator, create_quotly
 from Stringyins import get_string
 
 KANGING_STR = [

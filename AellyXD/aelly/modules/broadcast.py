@@ -5,11 +5,11 @@
 
 from asyncio import sleep
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LOGS
-from AyiinXd.modules.sql_helper import broadcast_sql as sql
-from AyiinXd.ayiin import ayiin_cmd, eor, parse_pre
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LOGS
+from AellyXD.modules.sql_helper import broadcast_sql as sql
+from AellyXD.ayiin import ayiin_cmd, eor, parse_pre
 from Stringyins import get_string
 
 

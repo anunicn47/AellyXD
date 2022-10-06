@@ -10,9 +10,9 @@ from telegraph import exceptions, upload_file
 from validators.url import url
 from wget import download
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from AyiinXd.ayiin import ayiin_cmd, bash, deEmojify
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from AellyXD.ayiin import ayiin_cmd, bash, deEmojify
 
 
 def convert_toimage(image):
@@ -447,9 +447,9 @@ async def FakeGoogleSearch(event):
     blue = (0, 0, 255)
     black = (0, 0, 0)
     font1 = ImageFont.truetype(
-        "AyiinXd/ayiin/styles/ProductSans-BoldItalic.ttf", 20)
+        "AellyXD/ayiin/styles/ProductSans-BoldItalic.ttf", 20)
     font2 = ImageFont.truetype(
-        "AyiinXd/ayiin/styles/ProductSans-Light.ttf", 23)
+        "AellyXD/ayiin/styles/ProductSans-Light.ttf", 23)
     drawing.text((450, 258), result, fill=blue, font=font1)
     drawing.text((270, 37), search, fill=black, font=font2)
     photo.save("downloads/test.jpg")

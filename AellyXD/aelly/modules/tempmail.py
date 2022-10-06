@@ -6,9 +6,9 @@ import asyncio
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 

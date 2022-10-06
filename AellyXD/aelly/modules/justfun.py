@@ -2,9 +2,9 @@
 # Ported For Lord-Userbot By liualvinas/Alvin
 # If You Kang It Don't Delete / Warning!! Jangan Hapus Ini!!!
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd
 
 
 @ayiin_cmd(pattern="xogame(?: |$)(.*)")
@@ -72,7 +72,7 @@ CMD_HELP.update(
         "secretchat": f"**Plugin : **`secretchat`\
         \n\n  »  **Perintah :** `{cmd}wp <teks> <username/ID>`\
         \n  »  **Kegunaan : **Memberikan pesan rahasia haya orang yang di tag yang bisa melihat\
-        \n  •  **Example : **{cmd}wp aku sayang kamu @AyiinXd\
+        \n  •  **Example : **{cmd}wp aku sayang kamu @AellyXD\
     "
     }
 )

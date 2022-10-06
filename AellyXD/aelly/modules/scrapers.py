@@ -58,8 +58,8 @@ from yt_dlp.utils import (
     XAttrMetadataError,
 )
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import (
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import (
     CMD_HELP,
     LOGS,
     OCR_SPACE_API_KEY,
@@ -67,8 +67,8 @@ from AyiinXd import (
     TEMP_DOWNLOAD_DIRECTORY,
     bot,
 )
-from AyiinXd.modules.upload_download import get_video_thumb
-from AyiinXd.ayiin import (
+from AellyXD.modules.upload_download import get_video_thumb
+from AellyXD.ayiin import (
     ayiin_cmd,
     chrome,
     eod,
@@ -77,7 +77,7 @@ from AyiinXd.ayiin import (
     options,
     progress,
 )
-from AyiinXd.ayiin.FastTelethon import upload_file
+from AellyXD.ayiin.FastTelethon import upload_file
 from Stringyins import get_string
 
 TTS_LANG = "id"
@@ -228,7 +228,7 @@ async def wiki(wiki_q):
         await wiki_q.client.send_file(
             wiki_q.chat_id,
             "output.txt",
-            thumb="AyiinXd/resources/logo.jpg",
+            thumb="AellyXD/resources/logo.jpg",
             reply_to=wiki_q.id,
             caption="**Output terlalu besar, dikirim sebagai file**",
         )
@@ -903,7 +903,7 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}google` <flags> <query>\
         \n  »  **Kegunaan : **Untuk Melakukan pencarian di google (default 5 hasil pencarian)\
         \n  •  **Flags :** `-l` **= Untuk jumlah hasil pencarian.**\
-        \n  •  **Example :** `{cmd}google -l4 AyiinXd` atau `{cmd}google AyiinXd`\
+        \n  •  **Example :** `{cmd}google -l4 AellyXD` atau `{cmd}google AellyXD`\
     "
     }
 )

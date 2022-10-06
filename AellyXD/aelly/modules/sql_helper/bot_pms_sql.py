@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, UnicodeText
 
-from AyiinXd.modules.sql_helper import BASE, SESSION
+from AellyXD.modules.sql_helper import BASE, SESSION
 
 
 class Bot_Users(BASE):

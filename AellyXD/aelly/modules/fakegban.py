@@ -5,9 +5,9 @@ import asyncio
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, DEVS
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, DEVS
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 

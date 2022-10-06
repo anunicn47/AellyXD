@@ -7,9 +7,9 @@ import os
 import heroku3
 from telethon.tl.functions.users import GetFullUserRequest
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME, SUDO_HANDLER, SUDO_USERS
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME, SUDO_HANDLER, SUDO_USERS
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)

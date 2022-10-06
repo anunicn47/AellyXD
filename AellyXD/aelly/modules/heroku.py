@@ -14,11 +14,11 @@ import aiohttp
 import heroku3
 import urllib3
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME
-from AyiinXd.modules.sql_helper.globals import addgvar, delgvar, gvarstatus
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME
+from AellyXD.modules.sql_helper.globals import addgvar, delgvar, gvarstatus
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 from time import sleep
 

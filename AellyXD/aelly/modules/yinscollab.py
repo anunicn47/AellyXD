@@ -1,8 +1,8 @@
 # Ayiin - Userbot
-# Credits (C) 2022-2023 @AyiinXd
+# Credits (C) 2022-2023 @AellyXD
 #
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 # ========================×========================
 #            Jangan Hapus Credit Ngentod
@@ -13,10 +13,10 @@ import asyncio
 from secrets import choice
 from time import sleep
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import BLACKLIST_CHAT, CMD_HELP
-from AyiinXd.ayiin import asupan_sagapung, exolink
-from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import BLACKLIST_CHAT, CMD_HELP
+from AellyXD.ayiin import asupan_sagapung, exolink
+from AellyXD.ayiin import ayiin_cmd, edit_or_reply
 
 
 exorcist = "https://telegra.ph/file/fccecf320b30088410dcd.jpg"

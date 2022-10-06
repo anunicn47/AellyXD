@@ -9,12 +9,12 @@ from telethon.tl import functions, types
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.utils import get_display_name
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, BLACKLIST_CHAT, LOGS
-from AyiinXd.modules.sql_helper.globals import addgvar, gvarstatus
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
-from AyiinXd.ayiin.tools import media_type
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, BLACKLIST_CHAT, LOGS
+from AellyXD.modules.sql_helper.globals import addgvar, gvarstatus
+from AellyXD.ayiin import ayiin_cmd, eod, eor
+from AellyXD.ayiin.tools import media_type
 from Stringyins import get_string
 
 

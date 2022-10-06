@@ -20,7 +20,7 @@ from telethon.tl.functions.channels import CreateChannelRequest, EditPhotoReques
 from telethon.tl.types import ChatPhotoEmpty, InputChatUploadedPhoto
 from telethon.utils import get_peer_id
 
-from AyiinXd import (
+from AellyXD import (
     BOT_TOKEN,
     BOTLOG_CHATID,
     CMD_HELP,
@@ -59,7 +59,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="Aʏɪɪɴ-Usᴇʀʙᴏᴛ Lᴏɢs",
-                about="» Group log Created by: Ayiin-Userbot\n\n» Support : @AyiinXdSupport\n» Support: @AyiinSupport",
+                about="» Group log Created by: Ayiin-Userbot\n\n» Support : @AellyXDSupport\n» Support: @AyiinSupport",
                 megagroup=True,
             ),
         )
@@ -136,7 +136,7 @@ async def autobot():
     filogo = random.choice(
           [
               "https://telegra.ph/file/2127175807fe36f6a40f1.jpg",
-              "AyiinXd/resources/logo.jpg",
+              "AellyXD/resources/logo.jpg",
           ]
     )
     await bot.send_message(bf, username)
@@ -243,16 +243,16 @@ def load_module(shortname):
     if shortname.startswith("__"):
         pass
     elif shortname.endswith("_"):
-        path = Path(f"AyiinXd/modules/{shortname}.py")
-        name = "AyiinXd.modules.{}".format(shortname)
+        path = Path(f"AellyXD/modules/{shortname}.py")
+        name = "AellyXD.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         LOGS.info("Successfully imported " + shortname)
     else:
 
-        path = Path(f"AyiinXd/modules/{shortname}.py")
-        name = "AyiinXd.modules.{}".format(shortname)
+        path = Path(f"AellyXD/modules/{shortname}.py")
+        name = "AellyXD.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.bot = bot
@@ -261,7 +261,7 @@ def load_module(shortname):
         mod.logger = logging.getLogger(shortname)
         spec.loader.exec_module(mod)
         # for imports
-        sys.modules["AyiinXd.modules." + shortname] = mod
+        sys.modules["AellyXD.modules." + shortname] = mod
         LOGS.info("Successfully imported " + shortname)
 
 
@@ -269,21 +269,21 @@ def start_assistant(shortname):
     if shortname.startswith("__"):
         pass
     elif shortname.endswith("_"):
-        path = Path(f"AyiinXd/modules/assistant/{shortname}.py")
-        name = "AyiinXd.modules.assistant.{}".format(shortname)
+        path = Path(f"AellyXD/modules/assistant/{shortname}.py")
+        name = "AellyXD.modules.assistant.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         LOGS.info("Starting Your Assistant Bot.")
         LOGS.info("Assistant Sucessfully imported " + shortname)
     else:
-        path = Path(f"AyiinXd/modules/assistant/{shortname}.py")
-        name = "AyiinXd.modules.assistant.{}".format(shortname)
+        path = Path(f"AellyXD/modules/assistant/{shortname}.py")
+        name = "AellyXD.modules.assistant.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.tgbot = bot.tgbot
         spec.loader.exec_module(mod)
-        sys.modules["AyiinXd.modules.assistant" + shortname] = mod
+        sys.modules["AellyXD.modules.assistant" + shortname] = mod
         LOGS.info("Assistant Successfully imported" + shortname)
 
 
@@ -295,7 +295,7 @@ def remove_plugin(shortname):
             del CMD_HELP[shortname]
 
         except BaseException:
-            name = f"AyiinXd.modules.{shortname}"
+            name = f"AellyXD.modules.{shortname}"
 
             for i in reversed(range(len(bot._event_builders))):
                 ev, cb = bot._event_builders[i]

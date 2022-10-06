@@ -5,10 +5,10 @@
 import os
 from pathlib import Path
 
-from AyiinXd import CMD_HELP
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd.ayiin import eor
-from AyiinXd.ayiin import ayiin_cmd, load_module, remove_plugin, reply_id
+from AellyXD import CMD_HELP
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD.ayiin import eor
+from AellyXD.ayiin import ayiin_cmd, load_module, remove_plugin, reply_id
 from Stringyins import get_string
 
 
@@ -21,7 +21,7 @@ async def _(event):
             xx = await eor(event, get_string("core_1"))
             downloaded_file_name = await event.client.download_media(
                 await event.get_reply_message(),
-                "AyiinXd/modules/",
+                "AellyXD/modules/",
             )
             if "(" not in downloaded_file_name:
                 path1 = Path(downloaded_file_name)
@@ -44,13 +44,13 @@ async def _(event):
 async def send(event):
     reply_to_id = await reply_id(event)
     input_str = event.pattern_match.group(1)
-    the_plugin_file = f"./AyiinXd/modules/{input_str}.py"
+    the_plugin_file = f"./AellyXD/modules/{input_str}.py"
     if os.path.exists(the_plugin_file):
         caat = await event.client.send_file(
             event.chat_id,
             the_plugin_file,
             force_document=True,
-            thumb="AyiinXd/resources/logo.jpg",
+            thumb="AellyXD/resources/logo.jpg",
             allow_cache=False,
             reply_to=reply_to_id,
             caption=get_string("core_4").format(input_str)
@@ -65,7 +65,7 @@ async def uninstall(event):
     if event.fwd_from:
         return
     shortname = event.pattern_match["shortname"]
-    dir_path = f"./AyiinXd/modules/{shortname}.py"
+    dir_path = f"./AellyXD/modules/{shortname}.py"
     xx = await eor(event, get_string("com_1"))
     try:
         remove_plugin(shortname)

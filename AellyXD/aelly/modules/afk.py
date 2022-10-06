@@ -7,9 +7,9 @@ from datetime import datetime
 
 from telethon.tl import functions, types
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, ayiin_handler, bash
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, ayiin_handler, bash
 from Stringyins import get_string
 
 USER_AFK = {}

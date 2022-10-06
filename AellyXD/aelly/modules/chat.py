@@ -38,12 +38,12 @@ from telethon.tl.types import (
 )
 from telethon.utils import get_input_location
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import eod, eor
-from AyiinXd.events import register
-from AyiinXd.modules.yinsping import absen
-from AyiinXd.ayiin import ayiin_cmd, get_user_from_event
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import eod, eor
+from AellyXD.events import register
+from AellyXD.modules.yinsping import absen
+from AellyXD.ayiin import ayiin_cmd, get_user_from_event
 from Stringyins import get_string
 
 
@@ -424,7 +424,7 @@ async def _(event):
 async def get_users(event):
     ayiin_ = event.text[11:]
     chat_ayiin = ayiin_.lower()
-    restricted = ["@AyiinXdSupport", "@ayiinxdsupport"]
+    restricted = ["@AellyXDSupport", "@AellyXDsupport"]
     if chat_ayiin in restricted:
         await eor(event, get_string("inal_1"))
         await event.client.send_message(
@@ -550,7 +550,7 @@ CMD_HELP.update(
         "link": f"**Plugin : **`link`\
         \n\n  »  **Perintah :** `{cmd}link` <username/userid> <opsional teks> (atau) Reply pesan {cmd}link <teks opsional>\
         \n  »  **Kegunaan : **Membuat link permanen ke profil pengguna dengan teks ubah sesuaikan opsional.\
-        \n  •  **Contoh : **{cmd}link @AyiinXd Ganteng\
+        \n  •  **Contoh : **{cmd}link @AellyXD Ganteng\
     "
     }
 )

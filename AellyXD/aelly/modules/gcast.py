@@ -16,14 +16,14 @@ import os
 import heroku3
 from telethon.errors import FloodWaitError
 
-from AyiinXd import BLACKLIST_GCAST
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, DEVS, HEROKU_API_KEY, HEROKU_APP_NAME
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import BLACKLIST_GCAST
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, DEVS, HEROKU_API_KEY, HEROKU_APP_NAME
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 GCAST_BLACKLIST = [
-    -1001675396283,  # AyiinXdSupport
+    -1001675396283,  # AellyXDSupport
     -1001473548283,  # SharingUserbot
     -1001433238829,  # TedeSupport
     -1001476936696,  # AnosSupport

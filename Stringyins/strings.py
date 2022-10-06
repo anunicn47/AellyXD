@@ -3,7 +3,7 @@ import sys
 from os import listdir, path
 from typing import Any, Dict, List, Union
 
-from AyiinXd import LOGS
+from AellyXD import LOGS
 try:
     from google_trans_new import google_translator
     Trs = google_translator()

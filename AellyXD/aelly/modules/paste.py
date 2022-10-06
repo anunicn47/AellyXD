@@ -7,10 +7,10 @@
 
 import os
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
-from AyiinXd.ayiin.pastebin import PasteBin
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from AellyXD.ayiin import ayiin_cmd, eod, eor
+from AellyXD.ayiin.pastebin import PasteBin
 from Stringyins import get_string
 
 

@@ -9,9 +9,9 @@ from subprocess import run as runapp
 
 import pybase64
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.events import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.events import ayiin_cmd
 
 
 @bot.on(ayiin_cmd(outgoing=True, pattern=r"hash (.*)"))

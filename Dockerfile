@@ -1,10 +1,10 @@
 #==============×==============#
 #      Created by: Alfa-Ex
-#=========× AyiinXd ×=========#
+#=========× AellyXD ×=========#
 
-FROM ayiinxd/ayiin-userbot:buster
+FROM AellyXD/ayiin-userbot:buster
 
-RUN git clone -b Ayiin-Userbot https://github.com/AyiinXd/Ayiin-Userbot /home/ayiinuserbot/ \
+RUN git clone -b Ayiin-Userbot https://github.com/AellyXD/Ayiin-Userbot /home/ayiinuserbot/ \
     && chmod 777 /home/ayiinuserbot \
     && mkdir /home/ayiinuserbot/bin/
 

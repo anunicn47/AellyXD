@@ -5,9 +5,9 @@
 
 from covid import Covid
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.events import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.events import ayiin_cmd
 from Stringyins import get_string
 
 

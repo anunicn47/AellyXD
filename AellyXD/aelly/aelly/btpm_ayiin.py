@@ -1,5 +1,5 @@
 try:
-    from AyiinXd.modules.sql_helper import SESSION, BASE
+    from AellyXD.modules.sql_helper import SESSION, BASE
 except ImportError:
     raise AttributeError
 

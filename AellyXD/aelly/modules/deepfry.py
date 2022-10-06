@@ -36,10 +36,10 @@ from random import randint, uniform
 
 from PIL import Image, ImageEnhance, ImageOps
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
-from AyiinXd.ayiin import check_media
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, eod, eor
+from AellyXD.ayiin import check_media
 from Stringyins import get_string
 
 

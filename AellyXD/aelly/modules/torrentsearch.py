@@ -13,9 +13,9 @@ import os
 import requests
 from bs4 import BeautifulSoup as bs
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY, bot
-from AyiinXd.events import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY, bot
+from AellyXD.events import ayiin_cmd
 from Stringyins import get_string
 
 

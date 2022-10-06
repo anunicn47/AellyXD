@@ -9,8 +9,8 @@ from re import match
 
 from bitlyshortener import Shortener
 
-from AyiinXd import BITLY_TOKEN, BOTLOG_CHATID
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import BITLY_TOKEN, BOTLOG_CHATID
+from AellyXD.ayiin import ayiin_cmd
 
 
 @ayiin_cmd(pattern="bitly(?: |$)(.*)")

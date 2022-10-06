@@ -1,18 +1,18 @@
 # Ayiin - Userbot
-# Copyright (C) 2022-2023 @AyiinXd
+# Copyright (C) 2022-2023 @AellyXD
 #
 # This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 #
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 

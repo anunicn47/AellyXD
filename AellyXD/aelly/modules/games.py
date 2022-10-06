@@ -3,9 +3,9 @@ from secrets import choice
 
 import requests
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, edit_delete, edit_or_reply
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, edit_delete, edit_or_reply
 
 category = ["classic", "kids", "party", "hot", "mixed"]
 

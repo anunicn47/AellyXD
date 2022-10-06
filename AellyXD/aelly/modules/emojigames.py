@@ -5,9 +5,9 @@
 
 from telethon.tl.types import InputMediaDice
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd
 
 
 @ayiin_cmd(pattern="dice(?: |$)(.*)")

@@ -14,9 +14,9 @@ from telethon.tl.functions.contacts import UnblockRequest
 from telethon.tl.functions.messages import ExportChatInviteRequest
 from telethon.tl.types import ChannelParticipantsKicked
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LOGS
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LOGS
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 

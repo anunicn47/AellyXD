@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://github.com/TeamUltroid/pyUltroid/blob/main/LICENSE>.
 
-from AyiinXd.ayiin._baseyins import AyiinDB
+from AellyXD.ayiin._baseyins import AyiinDB
 
 adB = AyiinDB()
 

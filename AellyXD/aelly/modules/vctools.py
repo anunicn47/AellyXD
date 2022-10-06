@@ -21,11 +21,11 @@ from telethon.tl.functions.phone import EditGroupCallTitleRequest as settitle
 from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
-from AyiinXd.events import register
-from AyiinXd.ayiin.pytgcalls import Ayiin, CLIENTS, VIDEO_ON
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.ayiin import ayiin_cmd, eod, eor
+from AellyXD.events import register
+from AellyXD.ayiin.pytgcalls import Ayiin, CLIENTS, VIDEO_ON
 from Stringyins import get_string
 
 
@@ -121,21 +121,21 @@ async def _(event):
     sender = await event.get_sender()
     yins = await event.client.get_me()
     if sender.id != yins.id:
-        AyiinXd = await event.reply(get_string("com_1"))
+        AellyXD = await event.reply(get_string("com_1"))
     else: 
-        AyiinXd = await eor(event, get_string("com_1"))
+        AellyXD = await eor(event, get_string("com_1"))
     if len(event.text.split()) > 1:
         chat = event.text.split()[1]
         try:
             chat = await event.client.parse_id(chat)
         except Exception as e:
-            return await eod(AyiinXd, get_string("error_1").format(str(e)))
+            return await eod(AellyXD, get_string("error_1").format(str(e)))
     else:
         chat = event.chat_id
     Xd = Ayiin(chat)
     if not Xd.group_call.is_connected:
         await Xd.group_call.join(chat)
-        await AyiinXd.edit(get_string("jovc_1").format(yins.first_name, yins.id, chat)
+        await AellyXD.edit(get_string("jovc_1").format(yins.first_name, yins.id, chat)
         )
         await asyncio.sleep(1)
         await Xd.group_call.set_is_mute(False)
@@ -150,9 +150,9 @@ async def _(event):
     sender = await event.get_sender()
     yins = await event.client.get_me()
     if sender.id != yins.id:
-        AyiinXd = await event.reply(get_string("com_1"))
+        AellyXD = await event.reply(get_string("com_1"))
     else: 
-        AyiinXd = await eor(event, get_string("com_1"))
+        AellyXD = await eor(event, get_string("com_1"))
     if len(event.text.split()) > 1:
         chat = event.text.split()[1]
         try:
@@ -167,7 +167,7 @@ async def _(event):
         del CLIENTS[chat]
     if VIDEO_ON.get(chat):
         del VIDEO_ON[chat]
-    await AyiinXd.edit(get_string("levc_1").format(yins.first_name, yins.id, chat))
+    await AellyXD.edit(get_string("levc_1").format(yins.first_name, yins.id, chat))
 
 
 @ayiin_cmd(pattern="rejoin$")

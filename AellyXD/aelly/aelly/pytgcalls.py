@@ -13,9 +13,9 @@ from telethon.errors.rpcerrorlist import (
     ChatSendMediaForbiddenError,
 )
 
-from AyiinXd import CMD_HANDLER as HNDLR
-from AyiinXd import LOGS, bot
-from AyiinXd.ayiin import eod, eor
+from AellyXD import CMD_HANDLER as HNDLR
+from AellyXD import LOGS, bot
+from AellyXD.ayiin import eod, eor
 
 from telethon import events
 from telethon.tl import functions, types

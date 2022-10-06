@@ -1,12 +1,12 @@
 # Ayiin - Userbot
-# Copyright (C) 2022-2023 @AyiinXd
+# Copyright (C) 2022-2023 @AellyXD
 #
-# This file is a part of < https://github.com/AyiinXd/Ayiin-Userbot >
+# This file is a part of < https://github.com/AellyXD/Ayiin-Userbot >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/AyiinXd/Ayiin-Userbot/blob/main/LICENSE/>.
+# <https://www.github.com/AellyXD/Ayiin-Userbot/blob/main/LICENSE/>.
 #
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 # ========================×========================
 #            Jangan Hapus Credit Ngentod
@@ -14,11 +14,11 @@
 
 from datetime import datetime as dt
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, BOTLOG_CHATID
-from AyiinXd.ayiin import eor
-from AyiinXd.events import register
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, BOTLOG_CHATID
+from AellyXD.ayiin import eor
+from AellyXD.events import register
+from AellyXD.ayiin import ayiin_cmd
 from Stringyins import get_string
 
 
@@ -74,7 +74,7 @@ async def listbtpm(list):
 async def on_btpm(event):
     """ Fbtpm logic. """
     try:
-        from AyiinXd.ayiin.btpm_ayiin import get_btpm
+        from AellyXD.ayiin.btpm_ayiin import get_btpm
     except AttributeError:
         return
     name = event.text[1:]
@@ -101,7 +101,7 @@ async def on_btpm(event):
 async def on_btpm_save(event):
     """ For .savebt command, saves btpm for future use. """
     try:
-        from AyiinXd.ayiin.btpm_ayiin import add_btpm
+        from AellyXD.ayiin.btpm_ayiin import add_btpm
     except AtrributeError:
         await event.edit(get_string("not_sql"))
         return
@@ -137,7 +137,7 @@ async def on_btpm_save(event):
 async def on_btpm_list(event):
     """ For .listbt command, list btpm saved by you. """
     try:
-        from AyiinXd.ayiin.btpm_ayiin import get_fbtpm
+        from AellyXD.ayiin.btpm_ayiin import get_fbtpm
     except AttributeError:
         await event.edit(get_string("not_sql"))
         return
@@ -158,7 +158,7 @@ async def on_btpm_list(event):
 async def on_btpm_delete(event):
     """ For .delbt command, deletes a list btpm. """
     try:
-        from AyiinXd.ayiin.btpm_ayiin import remove_btpm
+        from AellyXD.ayiin.btpm_ayiin import remove_btpm
     except AttributeError:
         await event.edit(get_string("not_sql"))
         return

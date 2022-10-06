@@ -9,10 +9,10 @@
 import io
 import re
 
-import AyiinXd.modules.sql_helper.blacklist_sql as sql
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, ayiin_handler, eor
+import AellyXD.modules.sql_helper.blacklist_sql as sql
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, ayiin_handler, eor
 from Stringyins import get_string
 
 

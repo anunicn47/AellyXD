@@ -22,10 +22,10 @@ from natsort import os_sorted
 from pySmartDL import SmartDL
 from telethon.tl.types import DocumentAttributeAudio, DocumentAttributeVideo
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
-from AyiinXd.ayiin import ayiin_cmd, eor, humanbytes, progress, run_cmd
-from AyiinXd.ayiin.FastTelethon import download_file, upload_file
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
+from AellyXD.ayiin import ayiin_cmd, eor, humanbytes, progress, run_cmd
+from AellyXD.ayiin.FastTelethon import download_file, upload_file
 from Stringyins import get_string
 
 

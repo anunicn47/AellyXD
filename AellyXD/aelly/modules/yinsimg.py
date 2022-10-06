@@ -5,9 +5,9 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 #
-# Ported by @AyiinXd
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# Ported by @AellyXD
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 # ========================×========================
 #            Jangan Hapus Credit Ngentod
@@ -20,9 +20,9 @@ import os
 import cv2
 import numpy as np
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 
@@ -64,11 +64,11 @@ async def sketch(e):
     inverted_blurred_img = 255 - blurred_img
     pencil_sketch_IMG = cv2.divide(
         gray_image, inverted_blurred_img, scale=256.0)
-    cv2.imwrite("ayiinxd.png", pencil_sketch_IMG)
-    await xx.respond(get_string("yimg_3"), file="ayiinxd.png")
+    cv2.imwrite("AellyXD.png", pencil_sketch_IMG)
+    await xx.respond(get_string("yimg_3"), file="AellyXD.png")
     await xx.delete()
     os.remove(file)
-    os.remove("ayiinxd.png")
+    os.remove("AellyXD.png")
 
 
 @ayiin_cmd(pattern=r"grey(?: |$)(.*)")
@@ -98,8 +98,8 @@ async def xnxx(event):
         cv2.imwrite("yin.png", lol)
         file = "yin.png"
     yin = cv2.imread(file)
-    ayiinxd = cv2.cvtColor(yin, cv2.COLOR_BGR2GRAY)
-    cv2.imwrite("yin.jpg", ayiinxd)
+    AellyXD = cv2.cvtColor(yin, cv2.COLOR_BGR2GRAY)
+    cv2.imwrite("yin.jpg", AellyXD)
     await event.client.send_file(
         event.chat_id,
         "yin.jpg",
@@ -139,8 +139,8 @@ async def ayiin(event):
         cv2.imwrite("yin.png", lol)
         file = "yin.png"
     yin = cv2.imread(file)
-    ayiinxd = cv2.GaussianBlur(yin, (35, 35), 0)
-    cv2.imwrite("yin.jpg", ayiinxd)
+    AellyXD = cv2.GaussianBlur(yin, (35, 35), 0)
+    cv2.imwrite("yin.jpg", AellyXD)
     await event.client.send_file(
         event.chat_id,
         "yin.jpg",
@@ -160,10 +160,10 @@ async def yinsxd(event):
     if not (ureply and (ureply.media)):
         return await eod(ayiin, get_string("failed9"))
 
-    ayiinxd = await ureply.download_media()
-    if ayiinxd.endswith(".tgs"):
+    AellyXD = await ureply.download_media()
+    if AellyXD.endswith(".tgs"):
         await ayiin.edit(get_string("com_1"))
-        cmd = ["lottie_convert.py", ayiinxd, "yin.png"]
+        cmd = ["lottie_convert.py", AellyXD, "yin.png"]
         file = "yin.png"
         process = await asyncio.create_subprocess_exec(
             *cmd,
@@ -175,7 +175,7 @@ async def yinsxd(event):
         stdout.decode().strip()
     else:
         await ayiin.edit(get_string("yimg_1"))
-        img = cv2.VideoCapture(ayiinxd)
+        img = cv2.VideoCapture(AellyXD)
         heh, lol = img.read()
         cv2.imwrite("yin.png", lol)
         file = "yin.png"
@@ -222,8 +222,8 @@ async def kntl(event):
         file = "yin.png"
     yin = cv2.imread(file)
     mmk = cv2.flip(yin, 1)
-    ayiinxd = cv2.hconcat([yin, mmk])
-    cv2.imwrite("yin.jpg", ayiinxd)
+    AellyXD = cv2.hconcat([yin, mmk])
+    cv2.imwrite("yin.jpg", AellyXD)
     await event.client.send_file(
         event.chat_id,
         "yin.jpg",
@@ -243,10 +243,10 @@ async def ayiin(kontol):
     if not (ureply and (ureply.media)):
         return await eod(mmk, get_string("failed9"))
 
-    ayiinxd = await ureply.download_media()
-    if ayiinxd.endswith(".tgs"):
+    AellyXD = await ureply.download_media()
+    if AellyXD.endswith(".tgs"):
         await mmk.edit(get_string("com_1"))
-        cmd = ["lottie_convert.py", ayiinxd, "yins.png"]
+        cmd = ["lottie_convert.py", AellyXD, "yins.png"]
         file = "yins.png"
         process = await asyncio.create_subprocess_exec(
             *cmd,
@@ -258,7 +258,7 @@ async def ayiin(kontol):
         stdout.decode().strip()
     else:
         await mmk.edit(get_string("yimg_1"))
-        img = cv2.VideoCapture(ayiinxd)
+        img = cv2.VideoCapture(AellyXD)
         kon, tol = img.read()
         cv2.imwrite("yins.png", tol)
         file = "yins.png"
@@ -276,7 +276,7 @@ async def ayiin(kontol):
     await mmk.delete()
     os.remove("yins.png")
     os.remove("yins.jpg")
-    os.remove(ayiinxd)
+    os.remove(AellyXD)
 
 
 @ayiin_cmd(pattern=r"quad(?: |$)(.*)")
@@ -310,8 +310,8 @@ async def ayiin(memek):
     mici = cv2.hconcat([ayin, xnxx])
     fr = cv2.flip(mici, 1)
     trn = cv2.rotate(fr, cv2.ROTATE_180)
-    ayiinxd = cv2.vconcat([mici, trn])
-    cv2.imwrite("yins.jpg", ayiinxd)
+    AellyXD = cv2.vconcat([mici, trn])
+    cv2.imwrite("yins.jpg", AellyXD)
     await memek.client.send_file(
         memek.chat_id,
         "yins.jpg",
@@ -368,8 +368,8 @@ async def yins(event):
     )
     centers = np.uint8(centers)
     asu = centers[labels.flatten()]
-    ayiinxd = asu.reshape(yins.shape)
-    cv2.imwrite("yins.jpg", ayiinxd)
+    AellyXD = asu.reshape(yins.shape)
+    cv2.imwrite("yins.jpg", AellyXD)
     await event.client.send_file(
         event.chat_id,
         "yins.jpg",
@@ -389,10 +389,10 @@ async def ayiin(event):
     if not (ureply and (ureply.media)):
         return await eod(ayiin, get_string("failed9"))
 
-    ayiinxd = await ureply.download_media()
-    if ayiinxd.endswith(".tgs"):
+    AellyXD = await ureply.download_media()
+    if AellyXD.endswith(".tgs"):
         await ayiin.edit(get_string("com_1"))
-        cmd = ["lottie_convert.py", ayiinxd, "yins.png"]
+        cmd = ["lottie_convert.py", AellyXD, "yins.png"]
         file = "yins.png"
         process = await asyncio.create_subprocess_exec(
             *cmd,
@@ -404,7 +404,7 @@ async def ayiin(event):
         stdout.decode().strip()
     else:
         await ayiin.edit(get_string("yimg_1"))
-        img = cv2.VideoCapture(ayiinxd)
+        img = cv2.VideoCapture(AellyXD)
         kon, tol = img.read()
         cv2.imwrite("yins.png", tol)
         file = "yins.png"
@@ -421,7 +421,7 @@ async def ayiin(event):
     await ayiin.delete()
     os.remove("yins.png")
     os.remove("yins.jpg")
-    os.remove(ayiinxd)
+    os.remove(AellyXD)
 
 
 @ayiin_cmd(pattern=r"border(?: |$)(.*)")

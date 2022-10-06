@@ -8,10 +8,10 @@ from hachoir.parser import createParser
 from PIL import Image, ImageOps
 from telethon.tl.types import DocumentAttributeFilename
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.events import ayiin_cmd, register
-from AyiinXd.ayiin import bash
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.events import ayiin_cmd, register
+from AellyXD.ayiin import bash
 from Stringyins import get_string
 
 

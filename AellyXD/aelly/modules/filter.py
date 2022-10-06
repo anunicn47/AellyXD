@@ -8,10 +8,10 @@
 from asyncio import sleep
 from re import IGNORECASE, escape, search
 
-from AyiinXd import BLACKLIST_CHAT, BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.events import ayiin_cmd, register
+from AellyXD import BLACKLIST_CHAT, BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.events import ayiin_cmd, register
 from Stringyins import get_string
 
 
@@ -21,7 +21,7 @@ async def filter_incoming_handler(handler):
     try:
         if not (await handler.get_sender()).bot:
             try:
-                from AyiinXd.modules.sql_helper.filter_sql import get_filters
+                from AellyXD.modules.sql_helper.filter_sql import get_filters
             except AttributeError:
                 await handler.edit(get_string("not_sql"))
                 return
@@ -51,7 +51,7 @@ async def add_new_filter(new_handler):
         return await new_handler.edit(get_string("ayiin_1")
         )
     try:
-        from AyiinXd.modules.sql_helper.filter_sql import add_filter
+        from AellyXD.modules.sql_helper.filter_sql import add_filter
     except AttributeError:
         await new_handler.edit(get_string("not_sql"))
         return
@@ -92,7 +92,7 @@ async def add_new_filter(new_handler):
 async def remove_a_filter(r_handler):
     """For .stop command, allows you to remove a filter from a chat."""
     try:
-        from AyiinXd.modules.sql_helper.filter_sql import remove_filter
+        from AellyXD.modules.sql_helper.filter_sql import remove_filter
     except AttributeError:
         return await r_handler.edit(get_string("not_sql"))
     filt = r_handler.pattern_match.group(1)
@@ -132,7 +132,7 @@ async def kick_marie_filter(event):
 async def filters_active(event):
     """For .filters command, lists all of the active filters in a chat."""
     try:
-        from AyiinXd.modules.sql_helper.filter_sql import get_filters
+        from AellyXD.modules.sql_helper.filter_sql import get_filters
     except AttributeError:
         return await event.edit(get_string("not_sql"))
     transact = get_string("flr_6")

@@ -15,9 +15,9 @@ from zipfile import ZIP_DEFLATED, BadZipFile, ZipFile, is_zipfile
 from natsort import os_sorted
 from rarfile import BadRarFile, RarFile, is_rarfile
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from AyiinXd.ayiin import humanbytes, ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from AellyXD.ayiin import humanbytes, ayiin_cmd
 from Stringyins import get_string
 
 MAX_MESSAGE_SIZE_LIMIT = 4095

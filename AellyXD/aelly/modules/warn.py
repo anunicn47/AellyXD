@@ -5,18 +5,18 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 #
-# Recode by @AyiinXd
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# Recode by @AellyXD
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 from telethon.tl import types
 from telethon.utils import get_display_name
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, eor
-from AyiinXd.ayiin._baseyins import AyiinDB
-from AyiinXd.modules.sql_helper.warn_db import add_warn, reset_warn, warns
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, eor
+from AellyXD.ayiin._baseyins import AyiinDB
+from AellyXD.modules.sql_helper.warn_db import add_warn, reset_warn, warns
 from Stringyins import get_string
 
 def inline_mention(user, custom=None, html=False):

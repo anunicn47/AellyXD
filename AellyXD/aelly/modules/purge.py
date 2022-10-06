@@ -14,10 +14,10 @@ from asyncio import sleep
 
 from telethon.errors import rpcbaseerrors
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, DEVS
-from AyiinXd.events import register
-from AyiinXd.ayiin import ayiin_cmd, eod
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, DEVS
+from AellyXD.events import register
+from AellyXD.ayiin import ayiin_cmd, eod
 from Stringyins import get_string
 
 

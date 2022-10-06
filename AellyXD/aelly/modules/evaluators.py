@@ -12,10 +12,10 @@ import traceback
 from os import remove
 from pprint import pprint
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
-from AyiinXd.events import register
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.ayiin import ayiin_cmd, eod, eor
+from AellyXD.events import register
 from Stringyins import get_string
 
 
@@ -28,7 +28,7 @@ async def _(event):
     expression = event.pattern_match.group(1)
     if not expression:
         return await eor(event, get_string("devs_3"))
-    if expression in ("AyiinXd.session", "config.env"):
+    if expression in ("AellyXD.session", "config.env"):
         return await eor(event, get_string("devs_2"))
     cmd = "".join(event.message.message.split(maxsplit=1)[1:])
     if not cmd:
@@ -97,7 +97,7 @@ async def _(event):
                 event.chat_id,
                 out_file,
                 force_document=True,
-                thumb="AyiinXd/resources/logo.jpg",
+                thumb="AellyXD/resources/logo.jpg",
                 allow_cache=False,
                 caption=f"`{cmd}`" if len(cmd) < 998 else None,
                 reply_to=reply_to_id,
@@ -112,7 +112,7 @@ async def run(event):
     code = event.pattern_match.group(1)
     if not code:
         return await eor(event, get_string("devs_1"))
-    if code in ("AyiinXd.session", "config.env"):
+    if code in ("AellyXD.session", "config.env"):
         return await eor(event, get_string("devs_2"))
     await eor(event, get_string("com_1"))
     if len(code.splitlines()) <= 5:
@@ -150,7 +150,7 @@ async def run(event):
             event.chat_id,
             "output.txt",
             reply_to=event.id,
-            thumb="AyiinXd/resources/logo.jpg",
+            thumb="AellyXD/resources/logo.jpg",
             caption="**Output terlalu besar, dikirim sebagai file**",
         )
         return remove("output.txt")
@@ -162,7 +162,7 @@ async def terminal_runner(event):
     command = event.pattern_match.group(1)
     if not command:
         return await eod(event, get_string("devs_7"))
-    if command in ("AyiinXd.session", "config.env"):
+    if command in ("AellyXD.session", "config.env"):
         return await eod(event, get_string("devs_2"))
     await eor(event, get_string("com_1"))
     process = await asyncio.create_subprocess_shell(
@@ -182,7 +182,7 @@ async def terminal_runner(event):
             event.chat_id,
             "output.txt",
             reply_to=event.id,
-            thumb="AyiinXd/resources/logo.jpg",
+            thumb="AellyXD/resources/logo.jpg",
             caption="**Output terlalu besar, dikirim sebagai file**",
         )
         return remove("output.txt")
@@ -210,7 +210,7 @@ async def _(event):
                 event.chat_id,
                 out_file,
                 force_document=True,
-                thumb="AyiinXd/resources/logo.jpg",
+                thumb="AellyXD/resources/logo.jpg",
                 allow_cache=False,
                 reply_to=reply_to_id,
             )

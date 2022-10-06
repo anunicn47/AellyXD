@@ -5,9 +5,9 @@
 # PLease read the GNU Affero General Public License in
 # <https://github.com/TeamUltroid/pyUltroid/blob/main/LICENSE>.
 #
-# Ported by @AyiinXd
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# Ported by @AellyXD
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 import heroku3
 import math
@@ -15,7 +15,7 @@ import shutil
 import urllib3
 from random import choice
 
-from AyiinXd import HEROKU_API_KEY, HEROKU_APP_NAME, LOGS
+from AellyXD import HEROKU_API_KEY, HEROKU_APP_NAME, LOGS
 
 from ._baseyins import AyiinDB
 from ._hosting import HOSTED_ON

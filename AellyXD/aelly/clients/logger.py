@@ -10,12 +10,12 @@ import asyncio
 from telethon.tl.functions.channels import EditAdminRequest, InviteToChannelRequest
 from telethon.tl.types import ChatAdminRights
 
-from AyiinXd import BOT_VER as version
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import bot, branch, tgbot
-from AyiinXd.ayiin import ayiin_version as py_ver
-from AyiinXd.ayiin import HOSTED_ON, checking
+from AellyXD import BOT_VER as version
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import bot, branch, tgbot
+from AellyXD.ayiin import ayiin_version as py_ver
+from AellyXD.ayiin import HOSTED_ON, checking
 
 MSG_ON = """
 ❏ ᴀʏɪɪɴ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ

@@ -1,8 +1,8 @@
 from time import sleep
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 
@@ -80,25 +80,25 @@ async def _(kntl):
 
 @ayiin_cmd(pattern=r"yatim(?: |$)(.*)")
 async def _(ytim):
-    ayiinxd = await eor(ytim, get_string("yitxc_53"))
+    AellyXD = await eor(ytim, get_string("yitxc_53"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_54"))
+    await AellyXD.edit(get_string("yitxc_54"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_55"))
+    await AellyXD.edit(get_string("yitxc_55"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_56"))
+    await AellyXD.edit(get_string("yitxc_56"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_57"))
+    await AellyXD.edit(get_string("yitxc_57"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_58"))
+    await AellyXD.edit(get_string("yitxc_58"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_59"))
+    await AellyXD.edit(get_string("yitxc_59"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_60"))
+    await AellyXD.edit(get_string("yitxc_60"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_61"))
+    await AellyXD.edit(get_string("yitxc_61"))
     sleep(1)
-    await ayiinxd.edit(get_string("yitxc_62"))
+    await AellyXD.edit(get_string("yitxc_62"))
 # Create by myself @localheart
 
 

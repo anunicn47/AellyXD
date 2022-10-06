@@ -1,8 +1,8 @@
 # Ayiin - Userbot
-# Credits (C) 2022-2023 @AyiinXd
+# Credits (C) 2022-2023 @AellyXD
 #
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 # ========================×========================
 #                Link For Collaborator

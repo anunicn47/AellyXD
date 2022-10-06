@@ -9,17 +9,17 @@ from datetime import datetime
 
 from pytz import timezone
 
-from AyiinXd import BLACKLIST_CHAT, BOTLOG_CHATID, CLEAN_WELCOME
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LOGS
-from AyiinXd.ayiin import ayiin_cmd, chataction
+from AellyXD import BLACKLIST_CHAT, BOTLOG_CHATID, CLEAN_WELCOME
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LOGS
+from AellyXD.ayiin import ayiin_cmd, chataction
 from Stringyins import get_string
 
 
 @chataction()
 async def welcome_to_chat(event):
     try:
-        from AyiinXd.modules.sql_helper.welcome_sql import (
+        from AellyXD.modules.sql_helper.welcome_sql import (
             get_current_welcome_settings,
             update_previous_welcome,
         )
@@ -94,7 +94,7 @@ async def save_welcome(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await event.edit(get_string("ayiin_1"))
     try:
-        from AyiinXd.modules.sql_helper.welcome_sql import add_welcome_setting
+        from AellyXD.modules.sql_helper.welcome_sql import add_welcome_setting
     except AttributeError:
         return await event.edit(get_string("not_sql"))
     msg = await event.get_reply_message()
@@ -124,7 +124,7 @@ async def save_welcome(event):
 @ayiin_cmd(pattern="checkwelcome$")
 async def show_welcome(event):
     try:
-        from AyiinXd.modules.sql_helper.welcome_sql import get_current_welcome_settings
+        from AellyXD.modules.sql_helper.welcome_sql import get_current_welcome_settings
     except AttributeError:
         return await event.edit(get_string("not_sql"))
     cws = get_current_welcome_settings(event.chat_id)
@@ -144,7 +144,7 @@ async def show_welcome(event):
 @ayiin_cmd(pattern="rmwelcome$")
 async def del_welcome(event):
     try:
-        from AyiinXd.modules.sql_helper.welcome_sql import rm_welcome_setting
+        from AellyXD.modules.sql_helper.welcome_sql import rm_welcome_setting
     except AttributeError:
         return await event.edit(get_string("not_sql"))
     if rm_welcome_setting(event.chat_id) is True:

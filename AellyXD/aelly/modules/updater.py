@@ -9,10 +9,10 @@ from os import environ, execle, remove
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME
-from AyiinXd.events import register
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME
+from AellyXD.events import register
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 
@@ -59,7 +59,7 @@ async def deploy(xx, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         try:
-            from AyiinXd.modules.sql_helper.globals import addgvar, delgvar
+            from AellyXD.modules.sql_helper.globals import addgvar, delgvar
 
             delgvar("restartstatus")
             addgvar("restartstatus", f"{xx.chat_id}\n{xx.id}")
@@ -105,7 +105,7 @@ async def update(xx, repo, ups_rem, ac_br):
     )
 
     try:
-        from AyiinXd.modules.sql_helper.globals import addgvar, delgvar
+        from AellyXD.modules.sql_helper.globals import addgvar, delgvar
 
         delgvar("restartstatus")
         addgvar("restartstatus", f"{xx.chat_id}\n{xx.id}")
@@ -113,7 +113,7 @@ async def update(xx, repo, ups_rem, ac_br):
         pass
 
     # Spin a new instance of bot
-    args = [sys.executable, "-m", "AyiinXd"]
+    args = [sys.executable, "-m", "AellyXD"]
     execle(sys.executable, *args, environ)
 
 

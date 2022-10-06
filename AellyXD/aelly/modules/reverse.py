@@ -16,9 +16,9 @@ import requests
 from bs4 import BeautifulSoup
 from PIL import Image
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.ayiin import ayiin_cmd, eod, eor, googleimagesdownload
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.ayiin import ayiin_cmd, eod, eor, googleimagesdownload
 from Stringyins import get_string
 
 opener = urllib.request.build_opener()

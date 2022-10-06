@@ -2,9 +2,9 @@
 # Lord Userbot
 
 
-from AyiinXd import DEVS, WHITELIST, blacklistayiin
-from AyiinXd.events import register
-from AyiinXd.ayiin import ayiin_cmd, chataction, get_user_from_event
+from AellyXD import DEVS, WHITELIST, blacklistayiin
+from AellyXD.events import register
+from AellyXD.ayiin import ayiin_cmd, chataction, get_user_from_event
 from Stringyins import get_string
 
 # Ported For Lord-Userbot by liualvinas/Alvin
@@ -15,7 +15,7 @@ async def handler(tele):
     if not tele.user_joined and not tele.user_added:
         return
     try:
-        from AyiinXd.modules.sql_helper.gmute_sql import is_gmuted
+        from AellyXD.modules.sql_helper.gmute_sql import is_gmuted
 
         guser = await tele.get_user()
         gmuted = is_gmuted(guser.id)
@@ -69,7 +69,7 @@ async def gben(userbot):
             return await dark.edit(get_string("gban_6")
             )
         try:
-            from AyiinXd.modules.sql_helper.gmute_sql import gmute
+            from AellyXD.modules.sql_helper.gmute_sql import gmute
         except BaseException:
             pass
         testuserbot = [
@@ -127,7 +127,7 @@ async def gunben(userbot):
             return await dark.edit(get_string("ungban_3")
             )
         try:
-            from AyiinXd.modules.sql_helper.gmute_sql import ungmute
+            from AellyXD.modules.sql_helper.gmute_sql import ungmute
         except BaseException:
             pass
         testuserbot = [

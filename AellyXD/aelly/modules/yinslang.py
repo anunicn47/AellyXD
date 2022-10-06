@@ -5,9 +5,9 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 #
-# Ported by @AyiinXd
-# FROM Ayiin-Userbot <https://github.com/AyiinXd/Ayiin-Userbot>
-# t.me/AyiinXdSupport & t.me/AyiinSupport
+# Ported by @AellyXD
+# FROM Ayiin-Userbot <https://github.com/AellyXD/Ayiin-Userbot>
+# t.me/AellyXDSupport & t.me/AyiinSupport
 
 # ========================×========================
 #            Jangan Hapus Credit Ngentod
@@ -18,9 +18,9 @@ import os
 
 from telethon import Button, custom
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot, tgbot
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot, tgbot
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_languages, language, get_string
 from .button import BTN_URL_REGEX
 
@@ -38,10 +38,10 @@ def build_keyboards(buttons):
 Y_BUTTONS = [
         [
            custom.Button.url("Bᴏᴛ Sᴛʀɪɴɢ", "https://t.me/AyiinStringRobot"),
-           custom.Button.url("Rᴇᴘʟɪᴛ Sᴛʀɪɴɢ", "https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
+           custom.Button.url("Rᴇᴘʟɪᴛ Sᴛʀɪɴɢ", "https://repl.it/@AellyXD/AyiinString?lite=1&outputonly=1"),
         ],
         [
-           custom.Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/AyiinXdSupport"),
+           custom.Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/AellyXDSupport"),
         ],
     ]
 

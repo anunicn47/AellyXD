@@ -10,8 +10,8 @@ import re
 
 from telethon.tl import types
 
-from AyiinXd import CMD_HELP
-from AyiinXd.events import register
+from AellyXD import CMD_HELP
+from AellyXD.events import register
 
 usernexp = re.compile(r"@(\w{3,32})\[(.+?)\]")
 nameexp = re.compile(r"\[([\w\S]+)\]\(tg://user\?id=(\d+)\)\[(.+?)\]")
@@ -52,8 +52,8 @@ async def mention(event):
 CMD_HELP.update(
     {
         "mentions": "**Plugin : **`Mentions users dengan nama kustom.`\
-        \n\n  »  **Perintah :** `Hi @AyiinXd[Ayiin Ganteng]`\
-        \n  •  **Result : **Hi [Ayiin Ganteng](tg://resolve?domain=AyiinXd)\
+        \n\n  »  **Perintah :** `Hi @AellyXD[Ayiin Ganteng]`\
+        \n  •  **Result : **Hi [Ayiin Ganteng](tg://resolve?domain=AellyXD)\
     "
     }
 )

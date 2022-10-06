@@ -5,9 +5,9 @@
 import asyncio
 import time
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY, bot
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY, bot
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 

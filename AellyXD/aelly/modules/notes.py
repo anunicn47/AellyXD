@@ -7,18 +7,18 @@
 
 from asyncio import sleep
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.events import register
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.events import register
+from AellyXD.ayiin import ayiin_cmd
 from Stringyins import get_string
 
 
 @ayiin_cmd(pattern="notes$")
 async def notes_active(svd):
     try:
-        from AyiinXd.modules.sql_helper.notes_sql import get_notes
+        from AellyXD.modules.sql_helper.notes_sql import get_notes
     except AttributeError:
         return await svd.edit(get_string("not_sql"))
     message = get_string("notes_1")
@@ -34,7 +34,7 @@ async def notes_active(svd):
 async def remove_notes(clr):
     """For .clear command, clear note with the given name."""
     try:
-        from AyiinXd.modules.sql_helper.notes_sql import rm_note
+        from AellyXD.modules.sql_helper.notes_sql import rm_note
     except AttributeError:
         return await clr.edit(get_string("not_sql"))
     notename = clr.pattern_match.group(1)
@@ -47,7 +47,7 @@ async def remove_notes(clr):
 @ayiin_cmd(pattern="save (\\w*)")
 async def add_note(fltr):
     try:
-        from AyiinXd.modules.sql_helper.notes_sql import add_note
+        from AellyXD.modules.sql_helper.notes_sql import add_note
     except AttributeError:
         return await fltr.edit(get_string("not_sql"))
     keyword = fltr.pattern_match.group(1)
@@ -81,7 +81,7 @@ async def incom_note(getnt):
     try:
         if not (await getnt.get_sender()).getnt.client:
             try:
-                from AyiinXd.modules.sql_helper.notes_sql import get_note
+                from AellyXD.modules.sql_helper.notes_sql import get_note
             except AttributeError:
                 return
             notename = getnt.text[1:]

@@ -2,7 +2,7 @@
 # Created by Kyy
 # Jangan hapus credit Anj!!!
 #
-# Recode by : @AyiinXd
+# Recode by : @AellyXD
 
 # ========================×========================
 #            Jangan Hapus Credit Ngentod
@@ -11,9 +11,9 @@
 
 from time import sleep
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 

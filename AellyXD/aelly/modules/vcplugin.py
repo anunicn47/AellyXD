@@ -10,10 +10,10 @@ import asyncio, re, os
 from telethon.tl import types
 from telethon.errors.rpcerrorlist import ChatSendMediaForbiddenError, MessageIdInvalidError
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LOGS, INLINE_PIC
-from AyiinXd.ayiin import ayiin_cmd, bash, eod, eor
-from AyiinXd.ayiin.pytgcalls import (
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LOGS, INLINE_PIC
+from AellyXD.ayiin import ayiin_cmd, bash, eod, eor
+from AellyXD.ayiin.pytgcalls import (
     add_to_queue,
     mediainfo,
     file_download,

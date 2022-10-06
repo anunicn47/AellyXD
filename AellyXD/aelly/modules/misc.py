@@ -23,10 +23,10 @@ from bs4 import BeautifulSoup
 from heroku3 import from_key
 from PIL import Image
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME
-from AyiinXd.ayiin import ayiin_cmd, eor, time_formatter
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME
+from AellyXD.ayiin import ayiin_cmd, eor, time_formatter
 from Stringyins import get_string
 
 # ================= CONSTANT =================
@@ -76,7 +76,7 @@ async def restart_bot(event):
         await event.client.send_message(
             BOTLOG_CHATID, get_string("rstrt_2")
         )
-    args = [sys.executable, "-m", "AyiinXd"]
+    args = [sys.executable, "-m", "AellyXD"]
     execle(sys.executable, *args, environ)
 
 

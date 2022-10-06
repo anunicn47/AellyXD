@@ -9,8 +9,8 @@
 
 import sys
 
-from AyiinXd import DEVS, LOAD, LOGS, NO_LOAD
-from AyiinXd.ayiin._baseyins import AyiinDB
+from AellyXD import DEVS, LOAD, LOGS, NO_LOAD
+from AellyXD.ayiin._baseyins import AyiinDB
 
 adB = AyiinDB()
 

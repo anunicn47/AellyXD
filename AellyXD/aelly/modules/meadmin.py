@@ -5,10 +5,10 @@
 import asyncio
 import os
 
-from AyiinXd import bot
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
+from AellyXD import bot
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, edit_or_reply
 from Stringyins import get_string
 
 

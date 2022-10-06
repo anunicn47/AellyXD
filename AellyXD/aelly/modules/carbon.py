@@ -14,11 +14,11 @@ from secrets import choice
 from telethon.tl import types
 from telethon.utils import get_display_name
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import eor
-from AyiinXd.ayiin import ayiin_cmd
-from AyiinXd.ayiin.misc import Carbon
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import eor
+from AellyXD.ayiin import ayiin_cmd
+from AellyXD.ayiin.misc import Carbon
 from Stringyins import get_string
 
 

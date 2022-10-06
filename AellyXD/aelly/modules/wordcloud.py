@@ -13,9 +13,9 @@ from scipy.ndimage import gaussian_gradient_magnitude
 from telethon.tl.types import DocumentAttributeFilename
 from wordcloud import ImageColorGenerator, WordCloud
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, bash, eod, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, bash, eod, eor
 from Stringyins import get_string
 
 
@@ -57,7 +57,7 @@ async def _(event):
         )
     try:
         await xx.edit(get_string("com_1"))
-        text = open("AyiinXd/ayiin/styles/alice.txt", encoding="utf-8").read()
+        text = open("AellyXD/ayiin/styles/alice.txt", encoding="utf-8").read()
         image_color = np.array(Image.open("wc.png"))
         image_color = image_color[::1, ::1]
         image_mask = image_color.copy()

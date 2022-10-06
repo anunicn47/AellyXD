@@ -1,6 +1,6 @@
 # Port By @VckyouuBitch From GeezProject
 # Perkontolan Dengan Hapus Credits
-# Recode By : @AyiinXd
+# Recode By : @AellyXD
 
 from asyncio import sleep
 
@@ -8,29 +8,29 @@ from telethon.tl.types import ChatBannedRights
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChannelParticipantsKicked
 
-from AyiinXd import CMD_HELP
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
+from AellyXD import CMD_HELP
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
 
 @ayiin_cmd(pattern="banall(?: |$)(.*)")
-async def testing(ayiinxd):
-    ayiin = await ayiinxd.get_chat()
-    yins = await ayiinxd.client.get_me()
+async def testing(AellyXD):
+    ayiin = await AellyXD.get_chat()
+    yins = await AellyXD.client.get_me()
     admin = ayiin.admin_rights
     creator = ayiin.creator
     if not admin and not creator:
-        await eod(ayiinxd, get_string("stvc_1").format(yins.first_name))
+        await eod(AellyXD, get_string("stvc_1").format(yins.first_name))
         return
-    xnxx = await eor(ayiinxd, get_string("yiban_1"))
+    xnxx = await eor(AellyXD, get_string("yiban_1"))
 # Thank for Dark_Cobra
-    ayiinkontol = await ayiinxd.client.get_participants(ayiinxd.chat_id)
+    ayiinkontol = await AellyXD.client.get_participants(AellyXD.chat_id)
     for user in ayiinkontol:
         if user.id == yins.id:
             pass
         try:
-            xx = await ayiinxd.client(EditBannedRequest(ayiinxd.chat_id, int(user.id), ChatBannedRights(until_date=None, view_messages=True)))
+            xx = await AellyXD.client(EditBannedRequest(AellyXD.chat_id, int(user.id), ChatBannedRights(until_date=None, view_messages=True)))
         except Exception as e:
             await eod(xnxx, get_string("error_1").format(str(e)))
         await sleep(.5)

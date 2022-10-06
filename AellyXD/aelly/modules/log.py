@@ -6,14 +6,14 @@ import asyncio
 
 from telethon import events
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LOGS, bot
-from AyiinXd.modules.sql_helper import no_log_pms_sql
-from AyiinXd.modules.sql_helper.globals import addgvar, gvarstatus
-from AyiinXd.modules.carbon import vcmention
-from AyiinXd.ayiin import _format, ayiin_cmd, edit_delete, edit_or_reply
-from AyiinXd.ayiin.tools import media_type
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LOGS, bot
+from AellyXD.modules.sql_helper import no_log_pms_sql
+from AellyXD.modules.sql_helper.globals import addgvar, gvarstatus
+from AellyXD.modules.carbon import vcmention
+from AellyXD.ayiin import _format, ayiin_cmd, edit_delete, edit_or_reply
+from AellyXD.ayiin.tools import media_type
 
 
 class LOG_CHATS:

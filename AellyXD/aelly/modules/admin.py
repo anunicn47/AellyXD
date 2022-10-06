@@ -33,11 +33,11 @@ from telethon.tl.types import (
     MessageMediaPhoto,
 )
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, DEVS, WHITELIST
-from AyiinXd.events import register
-from AyiinXd.ayiin import (
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, DEVS, WHITELIST
+from AellyXD.events import register
+from AellyXD.ayiin import (
     _format,
     eod,
     eor,
@@ -46,7 +46,7 @@ from AyiinXd.ayiin import (
     ayiin_handler,
     media_type,
 )
-from AyiinXd.ayiin.logger import logging
+from AellyXD.ayiin.logger import logging
 
 from Stringyins import get_string
 
@@ -217,7 +217,7 @@ async def nothanos(unbon):
 @register(pattern=r"^\.cmute(?: |$)(.*)", sudo=True)
 async def spider(spdr):
     try:
-        from AyiinXd.modules.sql_helper.spam_mute_sql import mute
+        from AellyXD.modules.sql_helper.spam_mute_sql import mute
     except AttributeError:
         return await eor(spdr, get_string("not_sql"))
     chat = await spdr.get_chat()
@@ -260,7 +260,7 @@ async def unmoot(unmot):
     if not admin and not creator:
         return await eor(unmot, get_string("no_admn"), time=10)
     try:
-        from AyiinXd.modules.sql_helper.spam_mute_sql import unmute
+        from AellyXD.modules.sql_helper.spam_mute_sql import unmute
     except AttributeError:
         return await eor(unmot, get_string("not_sql"))
     await eor(unmot, get_string("com_1"))
@@ -281,8 +281,8 @@ async def unmoot(unmot):
 @ayiin_handler()
 async def muter(moot):
     try:
-        from AyiinXd.modules.sql_helper.gmute_sql import is_gmuted
-        from AyiinXd.modules.sql_helper.spam_mute_sql import is_muted
+        from AellyXD.modules.sql_helper.gmute_sql import is_gmuted
+        from AellyXD.modules.sql_helper.spam_mute_sql import is_muted
     except AttributeError:
         return
     muted = is_muted(moot.chat_id)
@@ -318,7 +318,7 @@ async def ungmoot(un_gmute):
     if not admin and not creator:
         return await eor(un_gmute, get_string("no_admn"), time=10)
     try:
-        from AyiinXd.modules.sql_helper.gmute_sql import ungmute
+        from AellyXD.modules.sql_helper.gmute_sql import ungmute
     except AttributeError:
         return await eor(un_gmute, get_string("not_sql"), time=10)
     ayiin = await eor(un_gmute, get_string("com_1"))
@@ -342,7 +342,7 @@ async def gspider(gspdr):
     if not admin and not creator:
         return await eor(gspdr, get_string("no_admn"), time=10)
     try:
-        from AyiinXd.modules.sql_helper.gmute_sql import gmute
+        from AellyXD.modules.sql_helper.gmute_sql import gmute
     except AttributeError:
         return await gspdr.edit(get_string("not_sql"), time=10)
     ayiin = await eor(gspdr, get_string("com_1"))

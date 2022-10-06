@@ -12,9 +12,9 @@ from pytz import country_names as c_n
 from pytz import country_timezones as c_tz
 from pytz import timezone as tz
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, COUNTRY, TZ_NUMBER
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, COUNTRY, TZ_NUMBER
+from AellyXD.ayiin import ayiin_cmd
 from Stringyins import get_string
 
 

@@ -7,9 +7,9 @@ import re
 
 from telethon import Button
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, tgbot
-from AyiinXd.ayiin import ayiin_cmd, edit_delete, reply_id
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, tgbot
+from AellyXD.ayiin import ayiin_cmd, edit_delete, reply_id
 
 # regex obtained from:
 # https://github.com/PaulSonOfLars/tgbot/blob/master/tg_bot/modules/helper_funcs/string_handling.py#L23
@@ -102,11 +102,11 @@ CMD_HELP.update(
         "button": f"**Plugin : **`button`\
         \n\n  »  **Perintah :** `{cmd}cbutton` <text> [Name on button]<buttonurl:link you want to open>\
         \n  »  **Kegunaan : **Untuk membuat pesan button\
-        \n  •  **Examples : **`{cmd}cbutton test [google]<buttonurl:https://www.google.com> [Channel]<buttonurl:https://t.me/AyiinSupport:same> [Support]<buttonurl:https://t.me/AyiinXdSupport>`\
+        \n  •  **Examples : **`{cmd}cbutton test [google]<buttonurl:https://www.google.com> [Channel]<buttonurl:https://t.me/AyiinSupport:same> [Support]<buttonurl:https://t.me/AellyXDSupport>`\
         \n  •  **NOTE :** Untuk menggunakan ini, anda memerlukan bot anda dan harus ada di grup/channel di mana anda menggunakan\
         \n\n  »  **Perintah :** `{cmd}ibutton` <text> [Name on button]<buttonurl:link you want to open>\
         \n  »  **Kegunaan : **Untuk membuat pesan button melalui inline\
-        \n  •  **Examples : **`{cmd}ibutton test [google]<buttonurl:https://www.google.com> [Channel]<buttonurl:https://t.me/AyiinSupport:same> [Support]<buttonurl:https://t.me/AyiinXdSupport>`\
+        \n  •  **Examples : **`{cmd}ibutton test [google]<buttonurl:https://www.google.com> [Channel]<buttonurl:https://t.me/AyiinSupport:same> [Support]<buttonurl:https://t.me/AellyXDSupport>`\
     "
     }
 )

@@ -8,10 +8,10 @@ from telethon.tl.functions.photos import DeletePhotosRequest, UploadProfilePhoto
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import InputPhoto
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, DEVS, LOGS, STORAGE
-from AyiinXd.ayiin import eor
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, DEVS, LOGS, STORAGE
+from AellyXD.ayiin import eor
+from AellyXD.ayiin import ayiin_cmd
 from Stringyins import get_string
 
 if not hasattr(STORAGE, "userObj"):
@@ -21,10 +21,10 @@ if not hasattr(STORAGE, "userObj"):
 @ayiin_cmd(pattern="clone ?(.*)", allow_sudo=False)
 async def impostor(event):
     inputArgs = event.pattern_match.group(1)
-    AyiinXd = ["@AyiinXd", "@ayiinxd"]
-    if inputArgs in AyiinXd:
+    AellyXD = ["@AellyXD", "@AellyXD"]
+    if inputArgs in AellyXD:
         await eor(event, get_string("ayiin_2"))
-        await event.client.send_message("@AyiinXd", get_string("ayiin_3")
+        await event.client.send_message("@AellyXD", get_string("ayiin_3")
                                         )
         return
     xx = await eor(event, get_string("com_1"))

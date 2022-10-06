@@ -9,10 +9,10 @@ import re
 from hentai import Hentai, Utils
 from natsort import natsorted
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot
-from AyiinXd.events import ayiin_cmd
-from AyiinXd.ayiin import post_to_telegraph
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot
+from AellyXD.events import ayiin_cmd
+from AellyXD.ayiin import post_to_telegraph
 from Stringyins import get_string
 
 

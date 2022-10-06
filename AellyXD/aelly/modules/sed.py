@@ -10,9 +10,9 @@
 import re
 from sre_constants import error as sre_err
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd
 from Stringyins import get_string
 
 DELIMITERS = ("/", ":", "|", "_")

@@ -9,9 +9,9 @@ import sys
 
 from telethon.utils import get_peer_id
 
-from AyiinXd import BOT_TOKEN
-from AyiinXd import BOT_VER as version
-from AyiinXd import (
+from AellyXD import BOT_TOKEN
+from AellyXD import BOT_VER as version
+from AellyXD import (
     DEFAULT,
     DEVS,
     LOGS,
@@ -21,10 +21,10 @@ from AyiinXd import (
     bot,
     tgbot,
 )
-from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
+from AellyXD.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nAyiin-UserBot v{}, Copyright © 2021-2022 Ayiin• <https://github.com/AyiinXd>"
-MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nAyiin-UserBot v{}, Copyright © 2021-2022 Ayiin• <https://github.com/AyiinXd>"
+EOL = "EOL\nAyiin-UserBot v{}, Copyright © 2021-2022 Ayiin• <https://github.com/AellyXD>"
+MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nAyiin-UserBot v{}, Copyright © 2021-2022 Ayiin• <https://github.com/AellyXD>"
 
 
 async def ayiin_client(client):

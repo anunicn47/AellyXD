@@ -3,10 +3,10 @@
 
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, DEVS
-from AyiinXd.events import register
-from AyiinXd.ayiin import get_user_from_event, ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, DEVS
+from AellyXD.events import register
+from AellyXD.ayiin import get_user_from_event, ayiin_cmd
 from Stringyins import get_string
 
 

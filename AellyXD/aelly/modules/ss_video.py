@@ -9,9 +9,9 @@ import time
 
 from telethon.tl.types import DocumentAttributeFilename
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, bash, eor, progress
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import ayiin_cmd, bash, eor, progress
 from Stringyins import get_string
 
 

@@ -13,11 +13,11 @@ from pytz import country_timezones as c_tz
 from pytz import timezone as tz
 from requests import get
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd import OPEN_WEATHER_MAP_APPID as OWM_API
-from AyiinXd import WEATHER_DEFCITY
-from AyiinXd.ayiin import ayiin_cmd, eor
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD import OPEN_WEATHER_MAP_APPID as OWM_API
+from AellyXD import WEATHER_DEFCITY
+from AellyXD.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 DEFCITY = WEATHER_DEFCITY or None

@@ -15,9 +15,9 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.types import DocumentAttributeVideo
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LASTFM_USERNAME, bot, lastfm
-from AyiinXd.ayiin import ayiin_cmd, chrome, progress
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LASTFM_USERNAME, bot, lastfm
+from AellyXD.ayiin import ayiin_cmd, chrome, progress
 
 
 async def getmusicvideo(cat):

@@ -20,9 +20,9 @@ from telethon.errors.rpcerrorlist import FloodWaitError
 from telethon.tl.functions.account import UpdateProfileRequest
 from telethon.tl.functions.users import GetFullUserRequest
 
-from AyiinXd import BIO_PREFIX, BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import (
+from AellyXD import BIO_PREFIX, BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import (
     CMD_HELP,
     DEFAULT_BIO,
     LASTFM_API,
@@ -33,7 +33,7 @@ from AyiinXd import (
     bot,
     lastfm,
 )
-from AyiinXd.ayiin import ayiin_cmd
+from AellyXD.ayiin import ayiin_cmd
 
 LASTFM_PASS = md5(LASTFM_PASSWORD_PLAIN)
 if LASTFM_API and LASTFM_SECRET and LASTFM_USERNAME and LASTFM_PASS:

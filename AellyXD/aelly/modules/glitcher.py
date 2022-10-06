@@ -13,8 +13,8 @@ from glitch_this import ImageGlitcher
 from PIL import Image
 from telethon import functions, types
 
-from AyiinXd import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from AyiinXd.ayiin import ayiin_cmd, check_media, eod, eor, progress
+from AellyXD import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from AellyXD.ayiin import ayiin_cmd, check_media, eod, eor, progress
 from Stringyins import get_string
 
 Glitched = TEMP_DOWNLOAD_DIRECTORY + "glitch.gif"

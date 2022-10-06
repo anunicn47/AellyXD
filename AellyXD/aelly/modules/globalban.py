@@ -11,12 +11,12 @@ from telethon.errors import BadRequestError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import Channel
 
-import AyiinXd.modules.sql_helper.gban_sql as gban_sql
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, DEVS, WHITELIST, blacklistayiin
-from AyiinXd.events import register
-from AyiinXd.ayiin import ayiin_cmd, chataction, edit_or_reply, get_user_from_event
+import AellyXD.modules.sql_helper.gban_sql as gban_sql
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, DEVS, WHITELIST, blacklistayiin
+from AellyXD.events import register
+from AellyXD.ayiin import ayiin_cmd, chataction, edit_or_reply, get_user_from_event
 from Stringyins import get_string
 
 from .admin import BANNED_RIGHTS, UNBAN_RIGHTS
@@ -176,7 +176,7 @@ async def gablist(event):
                 event.chat_id,
                 fileuser,
                 force_document=True,
-                thumb="AyiinXd/resources/logo.jpg",
+                thumb="AellyXD/resources/logo.jpg",
                 caption="**List Global Banned**",
                 allow_cache=False,
             )

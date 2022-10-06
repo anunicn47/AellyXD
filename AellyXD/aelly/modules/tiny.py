@@ -14,9 +14,9 @@ import os
 import cv2
 from PIL import Image
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import bash, ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP
+from AellyXD.ayiin import bash, ayiin_cmd
 from Stringyins import get_string
 
 
@@ -28,7 +28,7 @@ async def ultiny(event):
         return
     xx = await event.edit(get_string("com_1"))
     ik = await event.client.download_media(reply)
-    im1 = Image.open("AyiinXd/resources/man_blank.png")
+    im1 = Image.open("AellyXD/resources/man_blank.png")
     if ik.endswith(".tgs"):
         await event.client.download_media(reply, "ult.tgs")
         await bash("lottie_convert.py ult.tgs json.json")

@@ -13,9 +13,9 @@ from datetime import datetime
 
 from speedtest import Speedtest
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, StartTime
-from AyiinXd.ayiin import edit_or_reply, humanbytes, ayiin_cmd
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, StartTime
+from AellyXD.ayiin import edit_or_reply, humanbytes, ayiin_cmd
 from time import sleep
 
 

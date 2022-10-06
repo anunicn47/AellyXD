@@ -1,9 +1,9 @@
 from telethon.utils import pack_bot_file_id
 
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, LOGS
-from AyiinXd.ayiin import ayiin_cmd, eod, eor
-from AyiinXd.ayiin.logger import logging
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, LOGS
+from AellyXD.ayiin import ayiin_cmd, eod, eor
+from AellyXD.ayiin.logger import logging
 from Stringyins import get_string
 
 LOGS = logging.getLogger(__name__)

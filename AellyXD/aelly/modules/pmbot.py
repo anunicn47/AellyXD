@@ -10,21 +10,21 @@ from math import floor
 from telethon.errors import BadRequestError, FloodWaitError, ForbiddenError
 from telethon.utils import get_display_name
 
-from AyiinXd import BOTLOG_CHATID
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, bot, tgbot, user
-from AyiinXd.modules.sql_helper.bot_blacklists import (
+from AellyXD import BOTLOG_CHATID
+from AellyXD import CMD_HANDLER as cmd
+from AellyXD import CMD_HELP, bot, tgbot, user
+from AellyXD.modules.sql_helper.bot_blacklists import (
     add_user_to_bl,
     check_is_black_list,
     get_all_bl_users,
     rem_user_from_bl,
 )
-from AyiinXd.modules.sql_helper.bot_pms_sql import get_user_id
-from AyiinXd.modules.sql_helper.bot_starters import (
+from AellyXD.modules.sql_helper.bot_pms_sql import get_user_id
+from AellyXD.modules.sql_helper.bot_starters import (
     del_starter_from_db,
     get_all_starters,
 )
-from AyiinXd.ayiin import (
+from AellyXD.ayiin import (
     _format,
     asst_cmd,
     edit_delete,
@@ -33,7 +33,7 @@ from AyiinXd.ayiin import (
     reply_id,
     time_formatter,
 )
-from AyiinXd.ayiin.logger import logging
+from AellyXD.ayiin.logger import logging
 
 LOGS = logging.getLogger(__name__)
 
@@ -296,7 +296,7 @@ async def bot_uinfo(event):
 @ayiin_cmd(pattern="(set|reset) pmbot(?: |$)(\\w*)")
 async def setpmbot(event):
     try:
-        import AyiinXd.modules.sql_helper.globals as sql
+        import AellyXD.modules.sql_helper.globals as sql
     except AttributeError:
         await event.edit("**Running on Non-SQL mode!**")
         return

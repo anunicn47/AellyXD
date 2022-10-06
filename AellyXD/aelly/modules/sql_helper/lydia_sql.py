@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Numeric, UnicodeText
 
-from AyiinXd.modules.sql_helper import BASE, SESSION
+from AellyXD.modules.sql_helper import BASE, SESSION
 
 
 class LydiaAI(BASE):
