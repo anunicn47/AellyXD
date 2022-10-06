@@ -81,7 +81,7 @@ Use this bot at your own risk, and use this userbot wisely.
 ## Owner Support [Ananya](https://t.me/an_unic_or_n47) or [Karan](https://t.me/kkara9009)
 
 You can contact for any help with Owners...
-#### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
+#### Special Thanks To [Everyone](https://github.com/AellyOfficial/AellyXD/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [Karan](https://github.com/kkara9009) : ProjectBish
 -  [Ananya](https://github.com/anunicn47) : Paperplane
 
