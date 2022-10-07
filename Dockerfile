@@ -2,15 +2,15 @@
 #      Created by: Alfa-Ex
 #=========× AellyXD ×=========#
 
-FROM AellyXD/ayiin-userbot:buster
+FROM AellyOfficial/AellyXD:buster
 
-RUN git clone -b Ayiin-Userbot https://github.com/AellyXD/Ayiin-Userbot /home/ayiinuserbot/ \
-    && chmod 777 /home/ayiinuserbot \
-    && mkdir /home/ayiinuserbot/bin/
+RUN git clone -b AellyXD https://github.com/AellyOfficial/AellyXD /home/aellyXD/ \
+    && chmod 777 /home/AellyXD \
+    && mkdir /home/AellyXD/bin/
 
-COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
+COPY ./sample_config.env ./config.env* /home/AellyXD/
 
-WORKDIR /home/ayiinuserbot/
+WORKDIR /home/AellyXD/
 
 RUN pip install -r requirements.txt
 
