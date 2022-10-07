@@ -86,6 +86,6 @@ You can contact for any help with Owners...
 -  [Ananya](https://github.com/anunicn47) : Paperplane
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/AellyOfficial/AellyXD/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/AellyOfficial/AellyXD/blob/Ayiin-Userbot/LICENSE) - Version 1.d, September2022
 
 
